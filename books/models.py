@@ -2,6 +2,8 @@ from django.db import models
 
 
 class Category(models.Model):
+    verbose_title_plural = 'Categories'
+
     title = models.CharField(max_length=254)
     friendly_title = models.CharField(max_length=254, null=True, blank=True)
 
@@ -25,4 +27,3 @@ class Book(models.Model):
 
     def __str__(self):
         return self.title
-        
