@@ -30,6 +30,7 @@
                 <div class="product-details-container mb-5 mt-md-5">
                     <p class="mb-0">{{ book.title }}</p>
                     <p class="mb-0">By {{ book.author }}</p>
+                    <p class="mb-0">{{ book.category }}</p>
                     <p class="lead mb-0 text-left font-weight-bold">${{ book.price }}</p>
                     {% if book.rating %}
                         <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ book.rating }} / 5</small>
