@@ -1,0 +1,2 @@
+
+[{"pk": 1, "model": "books.category", "fields": {"title": "Secondhandbooks", "friendly_title": "secondhandbooks"}}, {"pk": 2, "model": "books.category", "fields": {"title": "Nonfictions", "friendly_title": "nonfictions"}}, {"pk": 3, "model": "books.category", "fields": {"title": "Fictions", "friendly_title": "fictions"}}]

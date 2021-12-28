@@ -1,0 +1,455 @@
+[{
+        "pk": 1,
+        "model": "books.book",
+        "fields": {
+            "code": "BF001",
+            "title": "F. Scott Fitzgerald",
+            "author": "Arizona Original Bootcut Jeans",
+            "description": "Through the narration of Nick Carraway, the reader is taken into the superficially glittering world of the mansions which lined the Long Island shore in the 1920s, to encounter Nick's cousin Daisy, her brash but wealthy husband Tom Buchanan, Jay Gatsby and the mystery that surrounds him. The Great Gatsby is an undisputed classic of American literature from the period following the First World War and is one of the great novels of the twentieth century.",
+            "price": 5.39,
+            "category": 3,
+            "rating": 4.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 2,
+        "model": "books.book",
+        "fields": {
+            "code": "BF002",
+            "title": "Harry Potter and the Philosopher's Stone",
+            "author": "J.K. Rowling",
+            "description": "Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!",
+            "price": 7.99,
+            "category": 3,
+            "rating": 5.00,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 3,
+        "model": "books.book",
+        "fields": {
+            "code": "BF003",
+            "title": "The Fellowship of the Ring: The Lord of the Rings",
+            "author": "J. R. R. Tolkien",
+            "description": "In a sleepy village in the Shire, a young hobbit is entrusted with an immense task. He must make a perilous journey across Middle-earth to the Cracks of Doom, there to destroy the Ruling Ring of Power - the only thing that prevents the Dark Lord Sauron’s evil dominion.",
+            "price": 7.99,
+            "category": 3,
+            "rating": 4.70,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 4,
+        "model": "books.book",
+        "fields": {
+            "code": "BF004",
+            "title": "The Alchemist",
+            "author": "Paulo Coelho",
+            "description": "Paulo Coelho's enchanting novel has inspired a devoted following around the world. This story, dazzling in its simplicity and wisdom, is about an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of treasure buried in the Pyramids. Along the way he meets a Gypsy woman, a man who calls himself king, and an Alchemist, all of whom point Santiago in the direction of his quest. No one knows what the treasure is, or if Santiago will be able to surmount the obstacles along the way But what starts out as a journey to find worldly goods turns into a meditation on the treasures found within.",
+            "price": 7.99,
+            "category": 3,
+            "rating": 4.8,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 5,
+        "model": "books.book",
+        "fields": {
+            "code": "BF005",
+            "title": "The Hobbit",
+            "author": "J. R. R. Tolkien",
+            "description": "The Hobbit is the unforgettable story of Bilbo Baggins and acts as a prequel to the mythical Lord of the Rings fantasy series. Showcasing J.R.R. Tolkien's imaginative prowess, this a beautiful, otherworldly tale that cements the author's status as one of the premier storytellers of the twentieth century.",
+            "price": 7.99,
+            "category": 3,
+            "rating": 4.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 6,
+        "model": "books.book",
+        "fields": {
+            "code": "BF006",
+            "title": "Norse Mythology",
+            "author": "Neil Gaiman",
+            "description": "Norse mythology forms the delicate backbone of countless modern stories. Fascinating, dramatic and deliberate, with a gripping tension and vitality, the best-selling author of American Gods brings these Norse tales to life.",
+            "price": 7.99,
+            "category": 3,
+            "rating": 4.70,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 7,
+        "model": "books.book",
+        "fields": {
+            "code": "BF007",
+            "title": "The Midnight Library",
+            "author": "Matt Haig",
+            "description": "The touching, funny and heart-warming new audiobook from the Sunday Times best-selling author of How to Stop Time and Reasons to Stay Alive.",
+            "price": 9.99,
+            "category": 3,
+            "rating": 4.30,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 8,
+        "model": "books.book",
+        "fields": {
+            "code": "BF008",
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "description": "One of Jane Austen’s most beloved works, Pride and Prejudice, is vividly brought to life by Academy Award nominee Rosamund Pike (Gone Girl). In her bright and energetic performance of this British classic, she expertly captures Austen’s signature wit and tone. Her attention to detail, her literary background, and her performance in the 2005 feature film version of the novel provide the perfect foundation from which to convey the story of Elizabeth Bennett, her four sisters, and the inimitable Mr. Darcy.",
+            "price": 3.99,
+            "category": 3,
+            "rating": 4.70,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 9,
+        "model": "books.book",
+        "fields": {
+            "code": "BF009",
+            "title": "A Tale of Two Cities",
+            "author": "Charles Dickens",
+            "description": "Martin Jarvis is one of Britain's most admired actors. His audiobook output is legendary. He is described in Vanity Fair as 'the Olivier of audiobooks' and 'genius of the Spoken Word' in the LA Times. Award-winning recordings range from titles by Charles Dickens, P.G. Wodehouse and Michael Frayn to thrillers by Jeffrey Archer, Wilbur Smith, Ian Fleming and Dick Francis.",
+            "price": 3.99,
+            "category": 3,
+            "rating": 4.80,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 10,
+        "model": "books.book",
+        "fields": {
+            "code": "BF010",
+            "title": "Dune",
+            "author": "Frank Herbert",
+            "description": "Here is the novel that will be forever considered a triumph of the imagination. Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, who would become the mysterious man known as Maud'dib. He would avenge the traitorous plot against his noble family and would bring to fruition humankind's most ancient and unattainable dream.",
+            "price": 9.99,
+            "category": 3,
+            "rating": 4.80,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 11,
+        "model": "books.book",
+        "fields": {
+            "code": "BNF001",
+            "title": "Into Thin Air",
+            "author": "Jon Krakauer",
+            "description": "This is the true story of a 24-hour period on Everest when members of three separate expeditions were caught in a storm and faced a battle against hurricane-force winds, exposure, and the effects of altitude, which ended the worst single-season death toll in the peak's history.",
+            "price": 7.46,
+            "category": 2,
+            "rating": 4.70,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 12,
+        "model": "books.book",
+        "fields": {
+            "code": "BNF002",
+            "title": "Will",
+            "author": "Will Smith",
+            "description": "One of the most dynamic and globally recognised entertainment forces of our time opens up fully about his life, in a brave and inspiring book that traces his learning curve to a place where outer success, inner happiness and human connection are aligned. Along the way, Will tells the story in full of one of the most amazing rides through the worlds of music and film that anyone has ever had.",
+            "price": 7.50,
+            "category": 2,
+            "rating": 5.00,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 13,
+        "model": "books.book",
+        "fields": {
+            "code": "BNF003",
+            "title": "Greenlights",
+            "author": "Matthew McConaughey",
+            "description": "From the Academy Award-winning actor, an unconventional memoir filled with raucous stories, outlaw wisdom, and lessons learned the hard way about living with greater satisfaction.",
+            "price": 9.99,
+            "category": 2,
+            "rating": 4.70,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 14,
+        "model": "books.book",
+        "fields": {
+            "code": "BNF004",
+            "title": "Born a Crime",
+            "author": "Trevor Noah",
+            "description": "Born a Crime is the deeply personal story of what has shaped Trevor Noah, South African comedian and host of the Daily Show. An astonishing memoir that details growing up in the midst of a crumbling apartheid, it illuminates his unique vantage point and how it prepared him for a life in the public eye. This is a sharply humorous, engaging and unforgettable record of Noah's life and at its heart, a love letter to his remarkable mother.",
+            "price": 8.19,
+            "category": 2,
+            "rating": 4.80,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 15,
+        "model": "books.book",
+        "fields": {
+            "code": "BNF005",
+            "title": "Atomic Habits",
+            "author": "James Clear",
+            "description": "People think when you want to change your life, you need to think big. But world-renowned habits expert James Clear has discovered another way. He knows that real change comes from the compound effect of hundreds of small decisions – doing two push-ups a day, waking up five minutes early, or holding a single short phone call.",
+            "price": 8.19,
+            "category": 2,
+            "rating": 4.30,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 16,
+        "model": "books.book",
+        "fields": {
+            "code": "BNF006",
+            "title": "A Promised Land",
+            "author": "Barack Obama",
+            "description": "Obama takes listeners on a compelling journey from his earliest political aspirations to the pivotal Iowa caucus victory that demonstrated the power of grassroots activism to the watershed night of November 4th 2008, when he was elected 44th president of the United States, becoming the first African American to hold the nation's highest office.",
+            "price": 28.80,
+            "category": 2,
+            "rating": 4.90,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 17,
+        "model": "books.book",
+        "fields": {
+            "code": "BNF007",
+            "title": "Becoming",
+            "author": "Michelle Obama",
+            "description": "An intimate, powerful, and inspiring memoir by the former First Lady of the United States.",
+            "price": 10.00,
+            "category": 2,
+            "rating": 4.30,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 18,
+        "model": "books.book",
+        "fields": {
+            "code": "BNF008",
+            "title": "Shoe Dog",
+            "author": "Phil Knight",
+            "description": "In this candid and riveting memoir, for the first time ever, Nike founder and CEO Phil Knight shares the inside story of the company's early days as an intrepid start-up and its evolution into one of the world's most iconic, game-changing, and profitable brands.",
+            "price": 8.19,
+            "category": 2,
+            "rating": 4.20,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 19,
+        "model": "books.book",
+        "fields": {
+            "code": "BNF009",
+            "title": "Tools of Titans",
+            "author": "Tim Ferriss",
+            "description": "The latest groundbreaking tome from Tim Ferriss, the number-one New York Times best-selling author of The 4-Hour Workweek.",
+            "price": 14.89,
+            "category": 2,
+            "rating": 4.30,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 20,
+        "model": "books.book",
+        "fields": {
+            "code": "BNF010",
+            "title": "Wild",
+            "author": "Cheryl Strayed",
+            "description": "A powerful, blazingly honest memoir: the story of an 1100-mile solo hike that broke down a young woman reeling from catastrophe and built her back up again.",
+            "price": 7.00,
+            "category": 2,
+            "rating": 4.60,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 21,
+        "model": "books.book",
+        "fields": {
+            "code": "BSH001",
+            "title": "Walden: Life in the Woods",
+            "author": "Henry David Thoreau",
+            "description": "Thoreau's classic account of the solitary life, describing his attempts to simplify his life and sort out his priorities by living alone in a cabin beside Walden Pond for nearly two years, is one of the most influential books ever written.",
+            "price": 4.19,
+            "category": 1,
+            "rating": 4,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 22,
+        "model": "books.book",
+        "fields": {
+            "code": "BSH002",
+            "title": "The Miracle Morning",
+            "author": "Hal Elrod",
+            "description": "What's now being practiced by thousands of people around the world could perhaps be the simplest approach to creating the life you've always wanted. It's been right there in front of us, but this audiobook has finally brought it to life.",
+            "price": 5.50,
+            "category": 1,
+            "rating": 4.60,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 23,
+        "model": "books.book",
+        "fields": {
+            "code": "BSH003",
+            "title": "E-Squared",
+            "author": "Pam Grout",
+            "description": "This book could best be described as a lab manual with simple experiments that prove reality is malleable, consciousness trumps matter, and you shape your life with your mind.",
+            "price": 4.45,
+            "category": 1,
+            "rating": 4.20,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 24,
+        "model": "books.book",
+        "fields": {
+            "code": "BSH004",
+            "title": "Where the Forest Meets the Stars",
+            "author": "Glendy Vanderah",
+            "description": "After the loss of her mother and her own battle with breast cancer, Joanna Teale returns to her graduate research on nesting birds in rural Illinois, determined to prove that her recent hardships have not broken her. She throws herself into her work from dusk to dawn, until her solitary routine is disrupted by the appearance of a mysterious child who shows up at her cabin barefoot and covered in bruises.",
+            "price": 4.33,
+            "category": 1,
+            "rating": 4.30,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 25,
+        "model": "books.book",
+        "fields": {
+            "code": "BSH005",
+            "title": "Tracks",
+            "author": "Robyn Davidson",
+            "description": "A revised, reissued fortieth anniversary edition of this prize-winning, bestselling account of one woman's solo journey across 1,700 miles of Australian Outback",
+            "price": 2.25,
+            "category": 1,
+            "rating": 4.30,
+            "image_url": "",
+            "image": ""
+        }
+    },
+
+    {
+        "pk": 26,
+        "model": "books.book",
+        "fields": {
+            "code": "BSH006",
+            "title": "The Wizard of Oz",
+            "author": "Frank Baum",
+            "description": "Dorothy thinks she is lost forever when a terrifying tornado crashes through Kansas and whisks her and her dog, Toto, far away to the magical land of Oz. To get home Dorothy must follow the yellow brick road to Emerald City and find the wonderfully mysterious Wizard of Oz.",
+            "price": 4.44,
+            "category": 1,
+            "rating": 4.90,
+            "image_url": "",
+            "image": ""
+        }
+    },
+
+    {
+        "pk": 27,
+        "model": "books.book",
+        "fields": {
+            "code": "BSH007",
+            "title": "The Little Prince",
+            "author": "Antoine De Saint-Exupéry",
+            "description": "'The Little Prince' was published in 1943 by Antoine de Saint-Exupéry. It is a poetic tale in which a pilot strands in the desert and meets a young prince fallen to Earth from a tiny asteroid. The story is philosophical and includes social criticism, remarking on the strangeness of the adult world.",
+            "price": 2.25,
+            "category": 1,
+            "rating": 4.80,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 28,
+        "model": "books.book",
+        "fields": {
+            "code": "BSH008",
+            "title": "Alice in Wonderland",
+            "author": "Lewis Carroll",
+            "description": "Alice in Wonderland is an 1865 novel by English author Lewis Carroll. It tells of a young girl named Alice, who falls through a rabbit hole into a subterranean fantasy world populated by peculiar, anthropomorphic creatures. It is considered to be one of the best examples of the literary nonsense genre. The tale plays with logic, giving the story lasting popularity with adults as well as with children.",
+            "price": 2.99,
+            "category": 1,
+            "rating": 5.00,
+            "image_url": "",
+            "image": ""
+        }
+    },
+
+    {
+        "pk": 29,
+        "model": "books.book",
+        "fields": {
+            "code": "BSH009",
+            "title": "Steve Jobs",
+            "author": "Walter Isaacson",
+            "description": "In Steve Jobs: The Exclusive Biography, Isaacson provides an extraordinary account of Jobs' professional and personal life. Drawn from three years of exclusive and unprecedented interviews Isaacson has conducted with Jobs as well as extensive interviews with Jobs' family members and key colleagues from Apple and its competitors, Steve Jobs: The Exclusive Biography is the definitive portrait of the greatest innovator of his generation.",
+            "price": 5.99,
+            "category": 1,
+            "rating": 4.70,
+            "image_url": "",
+            "image": ""
+        }
+    },
+
+    {
+        "pk": 30,
+        "model": "books.book",
+        "fields": {
+            "code": "BSH010",
+            "title": "American Gods",
+            "author": "Neil Gaiman",
+            "description": "Destined to be a treasure for the millions of fans who made American Gods an internationally bestselling phenomenon, this beautifully designed and illustrated collectible edition of Neil Gaiman's revered masterpiece features enlightening and incisive notes throughout by award-winning annotator and editor Leslie S. Klinger.",
+            "price": 5.99,
+            "category": 1,
+            "rating": 4.90,
+            "image_url": "",
+            "image": ""
+        }
+    }
+]
