@@ -10,7 +10,7 @@ from .forms import BookForm
 # Create your views here.
 
 def all_books(request):
-    """ A view to show all books, including sorting and search queries """
+    """ A view to show all books, including search queries """
 
     books = Book.objects.all()
     query = None
