@@ -7,7 +7,7 @@ body {
     background-size: cover;
     height: calc(100vh - 164px);
     color: rgb(41, 37, 37);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 /* from Bulma */
