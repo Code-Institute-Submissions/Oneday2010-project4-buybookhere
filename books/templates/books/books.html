@@ -42,24 +42,26 @@
                         </a>
                         {% endif %}
                         <div class="card-body pb-0">
+                            {% if book.category %}
+                            <p class="small mt-1 mb-0">
+                                <a class="text-muted" href="{% url 'books' %}?category={{ book.category.title }}">
+                                    <i class="fas fa-bookmark mr-1"></i>{{ book.category.friendly_title }}
+                                </a>
+                            </p>
+                            {% endif %}
                             <p class="mb-0">{{ book.title }}</p>
+                            
                         </div>
                         <div class="card-body pb-0">
                             <p class="mb-0">By {{ book.author }}</p>
                         </div>
-                        {% if book.category %}
-                        <p class="small mt-1 mb-0">
-                            <a class="text-muted" href="{% url 'books' %}?category={{ book.category.title }}">
-                                <i class="fas fa-tag mr-1"></i>{{ book.category.friendly_title }}
-                            </a>
-                        </p>
-                        {% endif %}
+
                         <div class="card-footer bg-white pt-0 border-0 text-left">
                             <div class="row">
                                 <div class="col">
                                     <p class="lead mb-0 text-left font-weight-bold">€{{ book.price }}</p>
                                     {% if book.rating %}
-                                    <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ book.rating }} /
+                                    <small class="text-muted"><i class="fas fa-heart mr-1"></i>{{ book.rating }} /
                                         5</small>
                                     {% else %}
                                     <small class="text-muted">No Rating</small>
