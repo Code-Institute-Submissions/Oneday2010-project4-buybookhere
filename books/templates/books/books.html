@@ -49,23 +49,29 @@
                                 </a>
                             </p>
                             {% endif %}
-                            <p class="mb-0">{{ book.title }}</p>
-                            
+
+                            {% if book.rating %}
+                            <small class="text-muted"><i class="fas fa-heart mr-1"></i>{{ book.rating }} /
+                                5</small>
+                            {% else %}
+                            <small class="text-muted">No Rating</small>
+                            {% endif %}
+
+                            <h5 class="title mb-0">{{ book.title }}</h5>
+
                         </div>
                         <div class="card-body pb-0">
-                            <p class="mb-0">By {{ book.author }}</p>
+                            <p class="mb-0"><em>By {{ book.author }}</em></p>
                         </div>
 
                         <div class="card-footer bg-white pt-0 border-0 text-left">
                             <div class="row">
                                 <div class="col">
                                     <p class="lead mb-0 text-left font-weight-bold">€{{ book.price }}</p>
-                                    {% if book.rating %}
-                                    <small class="text-muted"><i class="fas fa-heart mr-1"></i>{{ book.rating }} /
-                                        5</small>
-                                    {% else %}
-                                    <small class="text-muted">No Rating</small>
-                                    {% endif %}
+                                    <p><a href="{% url 'book_detail' book.id %}"
+                                            class="btn btn-danger center rounded-5 text-uppercase">Buy now</a></p>
+
+
                                     {% if request.user.is_superuser %}
                                     <small class="ml-3">
                                         <a href="{% url 'edit_book' book.id %}">Edit</a> |

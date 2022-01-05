@@ -28,7 +28,7 @@ body {
 }
 
 .shop-now-button {
-    background: rgb(167, 21, 21);
+    background: #e34;
     color: white;
     min-width: 260px;
 }
@@ -101,6 +101,18 @@ a.category-badge>span.badge:hover {
     position: fixed;
     bottom: 10px;
     right: 10px;
+}
+
+.title {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .btt-link,
