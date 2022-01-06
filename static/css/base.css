@@ -41,6 +41,7 @@ body {
 
 .logo-font {
     text-transform: uppercase;
+    color: rgb(36, 35, 35);
 }
 
 .hr_style {
@@ -63,7 +64,7 @@ body {
 }
 
 .btn-black {
-    background: black;
+    background: rgb(59, 1, 1);
     color: white;
 }
 
@@ -71,13 +72,13 @@ body {
     background: white;
     color: black !important;
     /* use important to override link colors for <a> elements */
-    border: 1px solid black;
+    border: 1px solid rgb(59, 1, 1);
 }
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
+    background: rgb(59, 1, 1);
     color: white !important;
 }
 
@@ -87,8 +88,8 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: rgb(12, 1, 0);
-    color: white;
+    background: rgb(59, 1, 1);
+    color: rgb(255, 255, 255);
 }
 
 .text-black {
@@ -110,13 +111,13 @@ body {
     top: 0;
     left: 0;
     position: fixed;
-    background: white;
+    background: rgb(228, 228, 228);
     z-index: -1;
 }
 
 a.category-badge>span.badge:hover {
-    background: #212529 !important;
-    color: #fff !important;
+    background: #fcfdfd !important;
+    color: rgb(5, 5, 5) !important;
 }
 
 .btt-button {
@@ -132,17 +133,26 @@ a.category-badge>span.badge:hover {
     font-weight: 600;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.center {   
+    margin-left: 28%;
+    width: 50%;
+}
 
+.center_ed {
+    margin-left: 35%;
+   
 }
 
 .btt-link,
 .update-link,
 .remove-item {
     cursor: pointer;
+}
+
+.fa-arrow-circle-up {
+    font-size: 30px;
+    color: rgb(59, 1, 1);;
+
 }
 
 input[name='q']::placeholder {
