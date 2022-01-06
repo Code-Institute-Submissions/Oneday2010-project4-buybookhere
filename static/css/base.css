@@ -7,7 +7,7 @@ body {
     background-size: cover;
     height: calc(100vh - 164px);
     color: rgb(41, 37, 37);
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* from Bulma */
@@ -18,9 +18,33 @@ body {
     height: 1.5rem;
     width: 1.5rem;
 }
+/* https://www.codehim.com/bootstrap/bootstrap-forms/bootstrap-4-search-box-with-icon/ */
+.has-search {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.fa-cart-plus {
+    color:#e43;
+}
 
 .logo-font {
     text-transform: uppercase;
+}
+
+.hr_style {
+    border-top: 2px solid #e34;
 }
 
 .main-logo-link {

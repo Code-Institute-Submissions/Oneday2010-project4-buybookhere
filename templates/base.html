@@ -17,7 +17,7 @@
     {% block corecss %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
@@ -55,12 +55,12 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'books' %}">
                     
-                    <div class="input-group w-100">
-                        
+                    <div class="input-group w-100 has-search">
+                        <span class="fa fa-search form-control-feedback"></span>
                         <input class="form-control border border-black rounded-5" type="text" name="q"
-                            placeholder="Search book">
+                            placeholder="">
                         <div class="input-group-append">  
-                            <button class="form-control btn btn-outline-danger border border-black rounded-5" type="submit">
+                            <button class="form-control btn btn-outline-danger border border-black rounded-3" type="submit">
                                 <span class="icon"> 
                                     <i class="fas fa-book"></i>
                                 </span>
@@ -92,7 +92,7 @@
                             aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
                                 <div><i class="fas fa-user-circle fa-lg"></i></div>
-                                <p class="my-0">My Account</p>
+                                <p class="my-0">Signup/Login</p>
                             </div>
                         </a>
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
