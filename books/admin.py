@@ -3,6 +3,7 @@ from .models import Book, Category
 
 # Register your models here.
 
+
 class BookAdmin(admin.ModelAdmin):
     list_display = (
         'code',
@@ -15,6 +16,7 @@ class BookAdmin(admin.ModelAdmin):
     )
 
     ordering = ('code',)
+
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (

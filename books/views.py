@@ -9,6 +9,7 @@ from .forms import BookForm
 
 # Create your views here.
 
+
 def all_books(request):
     """ A view to show all books, including search queries """
 
@@ -21,13 +22,13 @@ def all_books(request):
             categories = request.GET['category'].split(',')
             books = books.filter(category__title__in=categories)
             categories = Category.objects.filter(title__in=categories)
-            
+
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
                 messages.error(request, "You didn't enter any search criteria!")
                 return redirect(reverse('books'))
-            
+
             queries = Q(title__icontains=query) | Q(author__icontains=query)
             books = books.filter(queries)
 
@@ -51,6 +52,7 @@ def book_detail(request, book_id):
 
     return render(request, 'books/book_detail.html', context)
 
+
 @login_required
 def add_book(request):
     """ Add a book to the store """
@@ -68,13 +70,14 @@ def add_book(request):
             messages.error(request, 'Failed to add book. Please ensure the form is valid.')
     else:
         form = BookForm()
-        
+
     template = 'books/add_book.html'
     context = {
         'form': form,
     }
 
     return render(request, template, context)
+
 
 @login_required
 def edit_book(request, book_id):
@@ -102,7 +105,8 @@ def edit_book(request, book_id):
         'book': book,
     }
 
-    return render(request, template, context)    
+    return render(request, template, context)
+
 
 @login_required
 def delete_book(request, book_id):
@@ -110,9 +114,8 @@ def delete_book(request, book_id):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
-        
+
     book = get_object_or_404(Book, pk=book_id)
     book.delete()
     messages.success(request, 'Book deleted!')
     return redirect(reverse('books'))
-
