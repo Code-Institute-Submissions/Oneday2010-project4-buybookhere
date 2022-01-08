@@ -142,15 +142,9 @@ a.category-badge>span.badge:hover {
 }
 
 .center {
-    margin-left: 28%;
-    width: 50%;
     margin-top: 1rem;
 }
 
-.center_ed {
-    margin-left: 35%;
-
-}
 
 .btt-link,
 .update-link,
