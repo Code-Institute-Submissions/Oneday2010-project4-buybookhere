@@ -9,6 +9,8 @@ from django_countries.fields import CountryField
 from books.models import Book
 from profiles.models import UserProfile
 
+# refer to https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/933797d5e14d6c3f072df31adf0ca6f938d02218
+
 
 class Order(models.Model):
     order_number = models.CharField(max_length=32, null=False, editable=False)
