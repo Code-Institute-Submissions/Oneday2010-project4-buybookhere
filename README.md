@@ -213,71 +213,134 @@ Check [colorspace]((https://mycolor.space/?hex=%23352E24&sub=1)) for colour matc
 
 ### Navbar ![navbar](readme_img/site_view/navbar.png)
 
- -  
+ -  There is a navbar fixed on the top of all the web pages to give the user better access and navigate the website easily. 
 
- - 
+ - search bar on the top inside navbar can assite user to search book in any pages
 
- - 
+ - shopping bag help to visual of total amount of checkout. 
+ - Account button has login/signup ( For the admin account has book manager too). So user can easily login/singup/my profile/book manager. 
+
+ - show four main pages( BOOKS/FICTIONS/NON-FINCTIONS/SECOND_HAND BOOKS)
+easily navigate the each pages. 
 
 ### Welcome (Home)![home](readme_img/site_view/home_page.png)
 
- - 
+ - Welcoming page with shop book button which lead to main books page.
 
- - 
-
- - 
-
- -  
 
 
 ### Books ![books](readme_img/site_view/books_page.png)
 
+
+ - Shows all inventory on the website ( all the books registered)
+
+ - each books have a button to go book detail( click the image or click the buy now button)
+ - small up arrow button help to viewer can go topup with one click
+
 ### Fictions ![fictions](readme_img/site_view/fictions_page.png)
+
+ -  show all fictions categorised book.
+
+ - small up arrow button help to viewer can go topup with one click
 
 ### Non-Fictions ![nonfictions](readme_img/site_view/nonfictions.png)
 
+ - show all Non-fictions categorised book. 
+
+ - small up arrow button help to viewer can go topup with one click
+
 ### Second-hand books ![secondhandbooks](readme_img/site_view/secondhand_page.png)
+
+ - show all second-hand book categorised book. 
+
+ - small up arrow button help to viewer can go topup with one click
 
 ### Book_detail ![bookdetail](readme_img/site_view/book_detail_page.png)
 
+ - Show user selected book detail
+
+ - Details of the book and come with order function. 
+
+ - ordering quantity can be change with mouse click or keyboard type
+
+ -  keep shopping link to the books page. 
+
 ### Login ![login](readme_img/site_view/login_page.png)
 
+ - user who already have account here can login in this page
+
+ - save function with remember me click box
+
+ - go back to home (lead to welcome page)
+
+ -  Forget password button lead to password reset page/user type the registered email and it will send the password reset e-mail to reset password link in it. 
+
+
 ### Sign out ![signout](readme_img/site_view/signout_page.png)
-- when the user logout the page it is automatically link to login page
+
+- after user logout from the main page, this page will load to confirm that user really want to logout. 
+
+- have a two option that cancel the logout or logout. 
+
+- when the user logout the page it is automatically load to welcoming page
+
 
 ### Sign up ![signup](readme_img/site_view/signup_page.png)
 
- simple register function page with a user name and password input form.  Under the form, the link suggested to the login page to lead the user who already register to the site. User name and password min 5 to max 15words. required and correctly labelled.
+- simple register function page with a user name and password input form.  Under the form, the link suggested to the login page to lead the user who already register to the site. User name and password min 5 to max 15words. required and correctly labelled.
 
 ### Check out ![checkout](readme_img/site_view/checkout_page.png)
 
+ -  the page for input detail of user information for the shipping and order information. 
+
+ -  Delivery information can be save for the next order on my profile
+
+ - Payment info ( only card at the moment). and if the it isn't valid information, shows the error
+
 ### Book management ![bookmanagement](readme_img/site_view/bookmanagement_page.png)
+
+ -  As admin, able to update book ( details and image)
 
 ### Shopping bag ![shippingbag](readme_img/site_view/shopping_bag_page.png)
 
+ -  When shopper add the book on the bag it will lead to this page
+
+ -  shows the detail of order information and shopper can update the order quantity or remove the choose the book from the bag. 
+
+ - Page lead to final checkout page to conclude the ordering process. 
+
+ -  shows total amount of payment and Delivery fee too, inform the free delivery if it is the case
+
 ### My profile ![myprofile](readme_img/site_view/myprofile_page.png)
 
-- the profile page is automatically linked to login information. So, registered user login the site, profile page open with right user information and it also has a button with home page linked.
+ - If user login, there is my profile page can be shown. 
+
+ - User can change profile and check the order history. 
+
+ - Check the order number, can see the all the detail of oder. 
 
 ### Profile/Order history ![orderhistory](readme_img/site_view/profile_orderhistory.png)
 
+ -  If the user has order history it will shows right side of my profile page.
+
 ### Order confirmed ![confirmed](readme_img/site_view/orderconfirmed_page.png)
 
- - simple login function page with a user name and password input form.  Under the form, the link suggested to the register page to lead the user to register to the site. User name and password min 5 to max 15words. required and correctly labelled.
+- when shopper finished all the checkout, this page will render and shows all the details of order 
+   details. Also toast message will inform to shopper that it sent to order confirmation email. 
 
 
 
 ## Features left to implement
 ---
+ -  If a shopper can change the rate or admin can collect the rate of the book can be great for collecting a good recommendation database. 
 
- -  
+ -  Social media links can be added in future such as facebook page or instagram. It will also be a nice tool to collect information and engagement between users. 
 
- -  
+ - If the viewer can sort the book by price/rate could be nice.
 
- - 
+ - Having a footer explain about the business and contact information would be nice. 
 
- - 
-
+ - If account on the navbar change the icon when user login/admin login, could be nice
  
 
 ## Technologies
@@ -287,13 +350,13 @@ Check [colorspace]((https://mycolor.space/?hex=%23352E24&sub=1)) for colour matc
 
 ### Languages Used
 
-## HTML5, CSS3, JAVASCRIPT,
+## HTML5, CSS3, JAVASCRIPT,Python+Django
 
 ### Frameworks,Libraries & Service sites
 
-1) 
+1) [Bootstrap](https://getbootstrap.com/) - prime front-end framework
 
-2) 
+2) [stripe](https://dashboard.stripe.com/) - payment provider
 
 3) [Google Fonts](https://fonts.google.com/specimen/Oswald?preview.text_type=custom) - Google fonts use for most headlines and paragraphs. 
 
@@ -304,13 +367,10 @@ Check [colorspace]((https://mycolor.space/?hex=%23352E24&sub=1)) for colour matc
 6) [JQuery](https://jquery.com/) - used javascript fuctions.
 
 
-7) [flask](https://flask.palletsprojects.com/en/2.0.x/) - The project uses Flask, which is a Python microframework.
+7) [AWS](https://aws.amazon.com/) - public cloud storage resource, used for the store my static and media files.
 
 8) [Jinja](https://jinja.palletsprojects.com/en/2.11.x/) - The project uses Jinja for templating with Flask in the HTML code. I used Jinja to simplify my HTML code, avoid repetition, and allow simpler linking of the back-end to the front-end.
 
-9) 
-
-10) 
 
 ### Version control
 
@@ -320,10 +380,11 @@ Check [colorspace]((https://mycolor.space/?hex=%23352E24&sub=1)) for colour matc
 
 ### Hosting
   - [Heroku](https://www.heroku.com/) - I've used Heroku as the hosting platform to deploy my app.
+  - [AWS](https://aws.amazon.com/) - public cloud storage resource, used for the store my static and media files.
 
 ### Other
 
- - [Code institute Course](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment) - my primary source of leaning code.
+ - [Code institute Course](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment) - my primary source of leaning code. ![Project - Boutique Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/933797d5e14d6c3f072df31adf0ca6f938d02218)
  - [ChromeDevTools](https://developer.chrome.com/docs/devtools/)- Used eachtime when I check error/issue on my site.
  - [W3Schools](https://www.w3schools.com/js/default.asp) - often use for css and javascript code tips
  - [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the layout of the website looks across different devices.
@@ -331,6 +392,7 @@ Check [colorspace]((https://mycolor.space/?hex=%23352E24&sub=1)) for colour matc
  - [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
  - [Colorspace](https://mycolor.space/?hex=%23352E24&sub=1) - Used to find right color pattern for my website
  - [Youtube](https://www.youtube.com/) - Used to got javascript and css tip
+ - [stackoverflow](https://stackoverflow.com/) - get help for code error or advice
  - [TinyJPG](https://tinyjpg.com/) - to compress image to better loading speed 
  
 
@@ -342,56 +404,13 @@ Check [colorspace]((https://mycolor.space/?hex=%23352E24&sub=1)) for colour matc
 
    ### There are five test users registered in this site. 
     
-    - 
-    - 
-    - 
-    - 
-    - 
+    - bookseller (Primary admin user) -> password : admintest
+    - volec -> password : test2022
+    
 
--> login with Amy21 or Admin, site shows edit/delete button. 
+-> login with bookseller(Primary admin), site shows edit/delete button on books and book manager page.
 
 There are six forms tests images below. 
-
-1.  login 
-
-![form test - login](static/images/form_test/login.png)
-
- - a user who already registers an account on this website can log in with an input username and password. If the username is less than five letters or more than 15letters, it shows a red underline and warning message with "please match the format requested". Same warning with a password. If password or username does not match with data, flask message pop up right corner of the website with a warning message. Moreover, after login, user's profile page will be open and with messege with username on it. 
-  
-
-2. register
-
- ![form test - register](static/images/form_test/register.png)
-
- - when a user tries to register an account, the user needs to input a username and password which letters between five to fifteen. If the requirement doesn't match, it will show a warning message.  After register  success, the user will be lead to the profile page and get the flask message with 'Registration Successful!"
-
-
-3. add 
-
- ![form test - add recipe](static/images/form_test/add.png)
-
- - After the user adds a new recipe on the new recipe page, the pop-up message shows with the user successfully add the recipe. and if the contents don't match with the requirement, it doesn't allow to add any data. 
-
-
-4. edit 
-
- ![form test - edit recipe](static/images/form_test/edit.png)
-
- - There are clickable buttons under recipes if the contents are created by the user who login. Therefore creators can edit/delete the contents as they wish. if the user clicks the edit button, it will lead to original data filled in a form and the user can change. After changing the form, the user can click the edit recipes button or cancel. If click edit recipes it updates with new data and if click the cancel will lead to the home page.
-
-
-5. delate 
-
- ![form test - delete recipe](static/images/form_test/delete.png)
-
- - if the user clicks the delete button, it will delete the food recipe, the user will see the pop-up message.
- 
-
-6. logout
-
-![form test - logout](static/images/form_test/logout.png)
-
-  - If the user clicks the logout on the navbar it will lead the user to the login page and the user will get a pop-up message.
 
 
 # Links : 
@@ -413,14 +432,7 @@ There are six forms tests images below.
 
  - Ensured the website was also responsive on all the pages [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit) 
 
-   - Home ![mobile friendly test - Home](static/images/mobile_friendly_test/home_mobilefriendly.png)
-
-   - login ![mobile friendly test - Dublin2](static/images/mobile_friendly_test/login_mobilefriendly.png)
-
-   - register ![mobile friendly test - Dublin6](static/images/mobile_friendly_test/register_mobilefriendly.png)
-
-   - addrecipe  ![mobile friendly test - Dublin8](static/images/mobile_friendly_test/addrecipe_mobilefriendly.png)
-
+   
    
   - I tested on Safari,Chrome, Firefox it was performed without issue. 
 
@@ -431,28 +443,28 @@ There are six forms tests images below.
  - [W3C Markup Validator](https://validator.w3.org/) : The W3C Validator tool doesn't recognise the Jinja templating, which has resulted in showing a lot of errors in relation to the Jinja code. However, all other code is validating fine.
 
 
- - [W3C CSS Vaildator](https://jigsaw.w3.org/css-validator/) 
+ - [W3C CSS Vaildator](https://jigsaw.w3.org/css-validator/) no issue found
 
     
 
-    ![W3C CSS Validator](static/images/css_validator.png)
+    ![W3C CSS Validator]
 
- - [Esprima Syntax Validator tool](https://esprima.org/demo/validate.html) 
-
-    
-
-    ![Esprima Syntax Validator tool](static/images/javascript_validate.png)
-
- - [Pep8 Online tool](http://pep8online.com/) 
+ - [Esprima Syntax Validator tool](https://esprima.org/demo/validate.html) no issues found
 
     
 
-   ![Pep8 Validator tool](static/images/python_validator.png)
+    ![Esprima Syntax Validator tool]
+
+ - [Pep8 Online tool](http://pep8online.com/)  
+
+    
+
+   ![Pep8 Validator tool]
 
 
   - [Documentation on using Developer Tools Lighthouse](https://developers.google.com/web/tools/lighthouse) 
 
-  ![Documentation on using Developer Tools Lighthouse](static/images/lighthouse.png)
+  ![Documentation on using Developer Tools Lighthouse]
    
 
 
@@ -460,7 +472,7 @@ There are six forms tests images below.
 
   - bug1
 
-   ![bug1](static/images/bugimg/bug1.png)
+   ![bug1]
 
    
 
@@ -520,58 +532,24 @@ There are six forms tests images below.
 
  ### Local Deployment
 
-  1) In order to run this project locally on your own system, you will need the following installed:
-
-  - Python3 to run the application.
-  - PIP to install all app requirements.
-       -> 
-
-  - 
-    
-     
-      
-I
-
-   2)  
-   3) 
-
-   4) there is some sensitive data which we need to be hide in file "env.py" and it is able to hide file ".gitignore". Therefor you can secure your confidential data. you need to setup a secret key, which is required whenever using the flash() and session() functions of Flask from MongoDB. 
-        
+  
 
    
 
 
 ### Remote Deployment  
 
-  This site is currently deployed on Heroku using the main branch on GitHub. To implement this project on Heroku, the following steps were taken:
-
-  1) Create a requirements.txt file so Heroku can install the required dependencies to run the app.
-  "pip3 freeze --local > requirements.txt".
-
-  2) Create a Procfile to tell Heroku what type of application is being deployed, and how to run it.
-    echo web: python app.py > Procfile
-
-  3) Sign up for a free Heroku account, create your project app, and click the Deploy tab, at which point you can Connect GitHub as the Deployment Method, and select Enable Automatic Deployment.
   
-  4) In the Heroku Settings tab, click on the Reveal Config Vars button to configure environmental variables as follows:
-  IP : 
-  PORT : 
-  
-  SECRET_KEY : <your own secret key>
-
-  Back to diploy section and try diploy your app.
-  Your app should be successfully deployed to Heroku at this point.
-
 
 ## Credits
 ---
 * ### Content
 
-    1) Many python code got inspired from  [codeinstitute_miniproject_task manager app ](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/courseware/9e2f12f5584e48acb3c29e9b0d7cc4fe/0d4e3419132440d9b2c0943f80dc54a8/)
+    1) my primary source of leaning code. ![Project - Boutique Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/933797d5e14d6c3f072df31adf0ca6f938d02218)
 
-    2) Primary front-end framework from [materialize](https://materializecss.com/)
+    2) Primary front-end framework from [bootstrap](https://materializecss.com/)
 
-    3) Korean food recipe and containes [BBCGOODFOOD](https://www.bbcgoodfood.com/) / [maangchi](https://www.maangchi.com/)
+    3) Amazon.co.uk [Amazon.co.uk](https://www.amazon.co.uk/s/ref=nb_sb_noss?url=search-alias%3Dstripbooks&field-keywords=&ref=nb_sb_noss&crid=1T8BB5M2AUKBK&sprefix=%2Cstripbooks%2C67) 
     
     4) Grammar and spelling checked from [Grammarly](www.grammarly.com/)
     
@@ -579,25 +557,10 @@ I
 
 * ### Media
 
-  most of images I used I referenced below (Pixabay) and else below
+  most of images I used I referenced below (Pixabay)/(Unsplash) and else below
 
-    1) logo created by myself I used this tool [canva](https://www.canva.com/)
-    2) [Bibimbap](https://pixabay.com/photos/food-photography-korean-bibimbap-2610863/)
-    3) [Korean fied chicken](https://pixabay.com/photos/chicken-korean-dish-food-fry-521097/)
-    4) [Fried rice](https://pixabay.com/photos/kimchi-fried-rice-fried-rice-rice-241051/)
-    5) [Kimchi](https://pixabay.com/photos/kimchi-korean-food-food-korea-4361465/)
-    6) [sonpun](https://pixabay.com/photos/wind-pant-tteok-rice-cake-masu-4869955/)
-    7) [Yakgwa](https://pixabay.com/photos/korean-traditional-sweets-drug-and-2150895/)
-    8) [Teokbokki](https://pixabay.com/photos/tteokbokki-food-korean-food-1607479/)
-    9) [bulgogi](https://pixabay.com/photos/ttukbaegi-bul-gogi-ttukbaegi-bulgogi-2517765/)
-    10) [bbq wing](https://pixabay.com/photos/ttukbaegi-bul-gogi-ttukbaegi-bulgogi-2517765/)
-    11) [spinach_side](https://pixabay.com/photos/spinach-side-dish-vegetable-552505/)
-    12) [Jap Chae noodles](https://pixabay.com/photos/japchae-asian-food-vegetables-house-876506/ )
-    13) [Porkmeat fired](https://pixabay.com/photos/pork-meat-fried-korean-food-dinner-1582916/)
-    14) [Stir-fried oyster mushrooms](https://pixabay.com/photos/food-cooking-mushrooms-4564419/)
-    15) [hotdog](https://pixabay.com/photos/food-snack-street-food-korean-food-4701098/)
-    16) [Hotteok](https://pixabay.com/photos/street-food-food-dish-snack-meal-6226730/)
-    17) [kimbop](https://pixabay.com/photos/food-photography-korean-kimbab-2610864/)
+   1) 
+
 
 * ### Acknowledgements
 
