@@ -133,9 +133,15 @@ a.category-badge>span.badge:hover {
     font-weight: 600;
 }
 
+.card-body {
+    text-align: center;
+    padding: 1rem;
+}
+
 .center {   
     margin-left: 28%;
     width: 50%;
+    margin-top: 1rem;
 }
 
 .center_ed {

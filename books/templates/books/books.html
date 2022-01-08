@@ -42,7 +42,7 @@
                             <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ book.title }}">
                         </a>
                         {% endif %}
-                        <div class="card-body pb-0">
+                        <div class="card-body pb-1">
                             {% if book.category %}
                             <small class="small mt-1 mb-0">
                                 <a class="text-muted" href="{% url 'books' %}?category={{ book.category.title }}">
@@ -60,8 +60,8 @@
    
                         </div>
                         <h5 class="text-center title mb-0">{{ book.title }}</h5>
-                        <div class="card-body pb-0">
-                            <p class="text-right mb-0"><em>By {{ book.author }}</em></p>
+                        <div class="card-body pb-1">
+                            <p class="text-center mb-0"><em>By {{ book.author }}</em></p>
                         </div>
 
                         <div class="card-footer bg-white pt-0 border-0 text-left">
