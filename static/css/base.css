@@ -19,6 +19,7 @@ body {
     height: 1.5rem;
     width: 1.5rem;
 }
+
 /* https://www.codehim.com/bootstrap/bootstrap-forms/bootstrap-4-search-box-with-icon/ */
 .has-search {
     padding-left: 2.375rem;
@@ -37,7 +38,7 @@ body {
 }
 
 .fa-cart-plus {
-    color:#e43;
+    color: #e43;
 }
 
 .logo-font {
@@ -134,12 +135,13 @@ a.category-badge>span.badge:hover {
     font-weight: 600;
 }
 
+
 .card-body {
     text-align: center;
     padding: 1rem;
 }
 
-.center {   
+.center {
     margin-left: 28%;
     width: 50%;
     margin-top: 1rem;
@@ -147,7 +149,7 @@ a.category-badge>span.badge:hover {
 
 .center_ed {
     margin-left: 35%;
-   
+
 }
 
 .btt-link,
@@ -158,7 +160,8 @@ a.category-badge>span.badge:hover {
 
 .fa-arrow-circle-up {
     font-size: 30px;
-    color: rgb(59, 1, 1);;
+    color: rgb(59, 1, 1);
+    ;
 
 }
 
