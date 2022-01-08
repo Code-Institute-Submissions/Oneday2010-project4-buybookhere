@@ -211,7 +211,7 @@ Check [colorspace]((https://mycolor.space/?hex=%23352E24&sub=1)) for colour matc
 ## Features
 ---
 
-### Navbar
+### Navbar ![navbar](readme_img/site_view/navbar.png)
 
  -  
 
@@ -219,7 +219,7 @@ Check [colorspace]((https://mycolor.space/?hex=%23352E24&sub=1)) for colour matc
 
  - 
 
-### Home
+### Welcome (Home)![home](readme_img/site_view/home_page.png)
 
  - 
 
@@ -229,25 +229,41 @@ Check [colorspace]((https://mycolor.space/?hex=%23352E24&sub=1)) for colour matc
 
  -  
 
-### Login
+
+### Books ![books](readme_img/site_view/books_page.png)
+
+### Fictions ![fictions](readme_img/site_view/fictions_page.png)
+
+### Non-Fictions ![nonfictions](readme_img/site_view/nonfictions.png)
+
+### Second-hand books ![secondhandbooks](readme_img/site_view/secondhand_page.png)
+
+### Book_detail ![bookdetail](readme_img/site_view/book_detail_page.png)
+
+### Login ![login](readme_img/site_view/login_page.png)
+
+### Sign out ![signout](readme_img/site_view/signout_page.png)
+- when the user logout the page it is automatically link to login page
+
+### Sign up ![signup](readme_img/site_view/signup_page.png)
+
+ simple register function page with a user name and password input form.  Under the form, the link suggested to the login page to lead the user who already register to the site. User name and password min 5 to max 15words. required and correctly labelled.
+
+### Check out ![checkout](readme_img/site_view/checkout_page.png)
+
+### Book management ![bookmanagement](readme_img/site_view/bookmanagement_page.png)
+
+### Shopping bag ![shippingbag](readme_img/site_view/shopping_bag_page.png)
+
+### My profile ![myprofile](readme_img/site_view/myprofile_page.png)
+
+- the profile page is automatically linked to login information. So, registered user login the site, profile page open with right user information and it also has a button with home page linked.
+
+### Profile/Order history ![orderhistory](readme_img/site_view/profile_orderhistory.png)
+
+### Order confirmed ![confirmed](readme_img/site_view/orderconfirmed_page.png)
 
  - simple login function page with a user name and password input form.  Under the form, the link suggested to the register page to lead the user to register to the site. User name and password min 5 to max 15words. required and correctly labelled.
-
-### Logout
-
- - when the user logout the page it is automatically link to login page
-
-### New Recipes
-
- - 
-
-### Profile
-
- - the profile page is automatically linked to login information. So, registered user login the site, profile page open with right user information and it also has a button with home page linked. 
-
-### Register
-
- -  simple register function page with a user name and password input form.  Under the form, the link suggested to the login page to lead the user who already register to the site. User name and password min 5 to max 15words. required and correctly labelled.
 
 
 
