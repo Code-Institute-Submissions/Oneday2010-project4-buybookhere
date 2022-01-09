@@ -460,18 +460,21 @@ There are six forms tests images below.
 
     ![bug1](readme_img/bug1.png)
 
+    I found this bug after I deployed my website and the view from 8000 was fine however, After I push to the git and load site from Heroku, it didn't properly sync with my adjustment. I got help from a tutor and Jo to point out I must have cleaned the old data (cacher) and hard refresh after I could see the sync is working perfectly fine. 
     
-
-   
-
 
   - bug2
 
-  
+    ![bug2](readme_img/bug2.png)
 
-  
+    I got the bug after I deployed to Heroku and the local gitpod didn't allow me to load 8000, I got help from the tutor and he pointed out that I need to gitpod environment variables secret_key for my project under my comment on "SECRET_KEY = os.environ.get('SECRET_KEY', '')" I saved a few essential secret_keys and refresh my workplace and it worked. 
 
  - bug3
+
+    ![bug3](readme_img/bug3.png)
+
+    After I tried to send my send test event on 
+https://buybookhere.herokuapp.com/checkout/wh/ and I got 404 error and It kept failing the test. I searched Slack and found advice from there, I share my godpod workplace with the public and try the test again and after it worked. 
 
   
 
