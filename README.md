@@ -565,6 +565,19 @@ https://buybookhere.herokuapp.com/checkout/wh/ and I got 404 error and It kept f
 
 
 ### Remote Deployment  
+This site is currently deployed on Heroku using the main branch on GitHub. To implement this project on Heroku, the following steps were taken:
+
+Create a requirements.txt file so Heroku can install the required dependencies to run the app. "pip3 freeze --local > requirements.txt".
+
+Create a Procfile to tell Heroku what type of application is being deployed, and how to run it. echo web: python app.py > Procfile
+
+Sign up for a free Heroku account, create your project app, and click the Deploy tab, at which point you can Connect GitHub as the Deployment Method, and select Enable Automatic Deployment.
+
+In the Heroku Settings tab, click on the Reveal Config Vars button to configure environmental variables as follows:
+ AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY / DATABASE_URL / EMAIL_HOST_PASS / EMAIL_HOST_USER /SECRET_KEY/STRIPE_PUBLIC_KEY/
+ STRIPE_SECRET_KEY / STRIPE_WH_SECRET /USE_AWS 
+
+Back to diploy section and try diploy your app. Your app should be successfully deployed to Heroku at this point.
 
   
 
