@@ -83,7 +83,7 @@ It also gets secure confirmation after the order submits. The admin can do manag
     
     "I want to change the mind and remove the books from the shopping bag"
 
-    "I don't know I order book correctly? right address and money I paid"
+    " I don't know I order the book correctly? I want to check I input the right address and also how much money I paid"
 
     "Don't remember I sign up this site before"
 
@@ -95,8 +95,6 @@ It also gets secure confirmation after the order submits. The admin can do manag
     " I want to check my order history"
 
     " I don't want to other people see my oder history"
-
-    " I forgot my password"
 
     " I want to change my delivery address and save for next time"
 
@@ -394,6 +392,7 @@ easily navigate the each pages.
  - [Youtube](https://www.youtube.com/) - Used to got javascript and css tip
  - [stackoverflow](https://stackoverflow.com/) - get help for code error or advice
  - [TinyJPG](https://tinyjpg.com/) - to compress image to better loading speed 
+ - [temp-mail](https://temp-mail.org/en/) - check my email confirmations. 
  
 
 
@@ -488,34 +487,49 @@ https://buybookhere.herokuapp.com/checkout/wh/ and I got 404 error and It kept f
   * ##### As as First Time User:
 
 
-    " "
+    " I'm just looking for an easy way to search book what I look for, I don't want to register"
 
-    ->  .  
+    ->  .  I was searching book name 'hobit" on the search bar and I found the result without issue. 
 
-    " "
+    " I want to see the total of my purchases during my shopping"
 
-    -> . 
+    -> .  I added a few books to the shopping bag and I could see the total amount of price on the right corner of the site. 
     
-    " "
+    "  I'm not sure I will get free delivery after how much I purchased the book"
 
-    -> .   
+    -> .   After I add one book to my shopping bag and the message pop up and told me how much will be for free delivery. 
+
+    "  I change my mind and I want to remove the books from the shopping bag"
+
+    -> .  On the shopping bag, I could see the button for removal.
+
+    " I don't know I order the book correctly? I want to check I input the right address and also how much money I paid"
+
+    -> .  After I check out and paid, I got a confirmed email about my order and the site load to thank you page with all the order history. 
+   
+    " Don't remember I sign up this site before"
+
+    -> .  There is a password reset button, I input my email address and actually, I got a password reset email. And it shows my user name too. I guess I made an account here before. 
+
 
   * ##### As as Regular  User:
 
-     ""
+     "I want to see my profile on the site because I sign up for the website"
+
+     -> .  after login, I got my profile page and I could update all my details. 
 
 
-     -> . 
+    "I want to check my order history "
 
+     -> . On my profile, I could see my order history besides my profile detail.
 
-    " "
+    " I don't want to other people see my order history"
 
-     -> .
+    -> .  Order history was in my profile page. My profile page was shown only after I login. 
 
-    " "
+    " I want to change my delivery address and save for next time "
 
-    -> . 
-
+    -> .  In check out page, there was function for "Save this delivery information to my profile " So, It was very handy for my next order. 
 
 
 ## Deployment
