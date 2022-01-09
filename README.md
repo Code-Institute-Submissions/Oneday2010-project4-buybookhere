@@ -406,6 +406,7 @@ easily navigate the each pages.
     
     - bookseller (Primary admin user) -> password : admintest
     - volec -> password : test2022
+    - test2022 -> password : usertest
     
 
 -> login with bookseller(Primary admin), site shows edit/delete button on books and book manager page.
@@ -426,53 +427,40 @@ There are six forms tests images below.
    * iPhone 11
    * iPad portrait · width: 768px:
    * MacBook 13inch 2014
-   * MacBOOK 13inch 2019
+   * MacBOOK 13inch 2020
 
 
 
  - Ensured the website was also responsive on all the pages [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit) 
 
-   
-   
+
   - I tested on Safari,Chrome, Firefox it was performed without issue. 
-
-
 
 #### Validation
 
  - [W3C Markup Validator](https://validator.w3.org/) : The W3C Validator tool doesn't recognise the Jinja templating, which has resulted in showing a lot of errors in relation to the Jinja code. However, all other code is validating fine.
 
-
  - [W3C CSS Vaildator](https://jigsaw.w3.org/css-validator/) no issue found
-
-    
-
-    ![W3C CSS Validator]
+  
+    ![W3C CSS Validator](readme_img/test/css_validator.png)
 
  - [Esprima Syntax Validator tool](https://esprima.org/demo/validate.html) no issues found
 
-    
 
-    ![Esprima Syntax Validator tool]
-
- - [Pep8 Online tool](http://pep8online.com/)  
-
-    
-
-   ![Pep8 Validator tool]
+ - [Pep8 Online tool](http://pep8online.com/)  There are errors told line too long. Apart from them, all code is validating fine. 
 
 
-  - [Documentation on using Developer Tools Lighthouse](https://developers.google.com/web/tools/lighthouse) 
+ - [Documentation on using Developer Tools Lighthouse](https://developers.google.com/web/tools/lighthouse) 
 
-  ![Documentation on using Developer Tools Lighthouse]
-   
-
+    ![Documentation on using Developer Tools Lighthouse](readme_img/test/lighthouse.jpg)
 
 #### Project bug and solution
 
   - bug1
 
-   ![bug1]
+    ![bug1](readme_img/bug1.png)
+
+    
 
    
 
