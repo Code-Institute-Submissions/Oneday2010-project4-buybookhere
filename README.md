@@ -545,23 +545,69 @@ There are six forms tests images below.
 ---
 * ### Content
 
-    1) my primary source of leaning code. ![Project - Boutique Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/933797d5e14d6c3f072df31adf0ca6f938d02218)
+1) my primary source of leaning code. [Project - Boutique Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/933797d5e14d6c3f072df31adf0ca6f938d02218)
 
-    2) Primary front-end framework from [bootstrap](https://materializecss.com/)
+2) Primary front-end framework from [bootstrap](https://materializecss.com/)
 
-    3) Amazon.co.uk [Amazon.co.uk](https://www.amazon.co.uk/s/ref=nb_sb_noss?url=search-alias%3Dstripbooks&field-keywords=&ref=nb_sb_noss&crid=1T8BB5M2AUKBK&sprefix=%2Cstripbooks%2C67) 
+3) Amazon.co.uk [Amazon.co.uk](https://www.amazon.co.uk/s/ref=nb_sb_noss?url=search-alias%3Dstripbooks&field-keywords=&ref=nb_sb_noss&crid=1T8BB5M2AUKBK&sprefix=%2Cstripbooks%2C67) 
+
+    Book(Fictions) 
+    1) [harry potter and the sorcerers stone](https://www.amazon.co.uk/Harry-Potter-Philosophers-Stone-Book/dp/B017V51FEG/ref=sr_1_1?crid=23YH2Q9HVQAWJ&keywords=harry+potter+and+the+sorcerers+stone&qid=1640606743&s=books&sprefix=harry+potter+and+the+sorcerers+stone%2Cstripbooks%2C77&sr=1-1) 
+    2) [the load of ring](https://www.amazon.co.uk/Fellowship-Ring-Lord-Rings-Book/dp/B098T7Y764/ref=sr_1_1?crid=4ITMSXL6INY4&keywords=the+load+of+ring&qid=1640606867&s=audible&sprefix=the+load+of+ring%2Caudible%2C46&sr=1-1)
+    3) [The Alchemist](https://www.amazon.co.uk/Alchemist-Fable-About-Following-Dream/dp/B0055HVN04/ref=sr_1_1?crid=2K3EZB7XJO3TF&keywords=The+Alchemist&qid=1640607003&s=audible&sprefix=the+alchemist%2Caudible%2C51&sr=1-1)
+
+    4) [Hobbit](https://www.amazon.co.uk/The-Hobbit/dp/B0030ED3CA/ref=sr_1_1?crid=20452KCOWTHT1&keywords=Hobbit&qid=1640607233&s=books&sprefix=hobbit%2Cstripbooks%2C59&sr=1-1)
+    5) [Norse Mythology](https://www.amazon.co.uk/Norse-Mythology/dp/B06WWM5HRC/ref=sr_1_1?crid=1LT92BBO5WU2K&keywords=Norse+Mythology&qid=1640607340&s=books&sprefix=norse+mythology%2Cstripbooks%2C58&sr=1-1)
+    6) [the midnight library](https://www.amazon.co.uk/The-Midnight-Library/dp/B085LJ5BVY/ref=sr_1_1?crid=37Y9Q6JSLD516&keywords=the+midnight+library&qid=1640607449&s=audible&sprefix=the+midnight+library%2Caudible%2C46&sr=1-1)
+    7) [pride and prejudice]( https://www.amazon.co.uk/Pride-and-Prejudice/dp/B016LMY7C2/ref=sr_1_1?crid=1D1GYKPQSP1VV&keywords=pride+and+prejudice&qid=1640607596&s=audible&sprefix=pride+and+prejudice%2Caudible%2C52&sr=1-1)
+    8) [a tale of two cities](https://www.amazon.co.uk/A-Tale-of-Two-Cities/dp/B002SQF7G6/ref=sr_1_1?crid=7UYBJR8ORRMC&keywords=a+tale+of+two+cities&qid=1640607773&s=audible&sprefix=a+tale+of+two+cities%2Caudible%2C53&sr=1-1)
+    9) [the great gatsby](https://www.amazon.co.uk/Great-Gatsby-Wordsworth-Collectors-Editions/dp/1840227958/ref=sr_1_1?crid=3SJPONKPOP4YX&keywords=The+Great+Gatsby&qid=1640605831&s=books&sprefix=the+great+gatsby%2Cstripbooks%2C51&sr=1-1)
+    10) [Dune](https://www.amazon.co.uk/Dune/dp/B002SQ5UD6/ref=sr_1_1?crid=1BGVDH7BQ2UK3&keywords=Dune&qid=1640607875&s=audible&sprefix=dune%2Caudible%2C47&sr=1-1)
+
+    Non-Finctions
+
+    1) [into the air](https://www.amazon.co.uk/Into-Thin-Air/dp/B01C99MCNC/ref=sr_1_1?crid=1ZA3J5H2JQVJM&keywords=Into+the+air&qid=1640617158&s=audible&sprefix=into+the+air%2Caudible%2C47&sr=1-1)
+
+    2) [Will](https://www.amazon.co.uk/Audible-Will/dp/B097N6LDMF/ref=sr_1_1?crid=15MV1JWS5EJ05&keywords=will+smith+book&qid=1640615664&s=books&sprefix=will%2Cstripbooks%2C74&sr=1-1) 
+    3) [Greenlights](https://www.amazon.co.uk/Greenlights/dp/B08DYFWZGM/ref=sr_1_1?crid=1WH9XQNGCUZEY&keywords=Greenlights&qid=1640617358&s=audible&sprefix=greenlights%2Caudible%2C52&sr=1-1)
+
+    4) [Born a Crime]( https://www.amazon.co.uk/Born-Crime-Stories-African-Childhood/dp/B01M6W3BAI/ref=sr_1_1?crid=2FC3H0PPTF21V&keywords=born+a+crime&qid=1640617562&s=audible&sprefix=born+a%2Caudible%2C61&sr=1-1)
+
+    5) [atomic habits]( https://www.amazon.co.uk/Atomic-Habits-Proven-Build-Break/dp/B07J1XQSNK/ref=sr_1_1?crid=IQBI6BPD6PN4&keywords=atomic+habits&qid=1640618073&s=audible&sprefix=automic%2Caudible%2C61&sr=1-1  )
+    6) [ a promised land](https://www.amazon.co.uk/A-Promised-Land/dp/B08JCM5KHZ/ref=sr_1_1?crid=GU59BW4410YD&keywords=a+promised+land&qid=1640618372&s=audible&sprefix=a+pro%2Caudible%2C69&sr=1-1)
+
+    7) [ becoming]( https://www.amazon.co.uk/Becoming/dp/B07B3G4PQB/ref=sr_1_1?crid=1GVGFYMXDEB9V&keywords=becoming&qid=1640617863&s=audible&sprefix=becoming%2Caudible%2C56&sr=1-1)
+
+    8) [ shoe dog]( https://www.amazon.co.uk/Shoe-Dog-Memoir-Creator-Nike/dp/B07RRJNGX9/ref=sr_1_1?crid=3S5M2CHJPJDVI&keywords=shoe+dog&qid=1640616828&s=audible&sprefix=shoe+%2Caudible%2C59&sr=1-1)
+
+    9) [Tools of titans](https://www.amazon.co.uk/Tools-Titans-Billionaires-World-Class-Performers/dp/B082VKL6VC/ref=sr_1_1?crid=11F99QERFPGVS&keywords=tools+of+titans&qid=1640616549&s=audible&sprefix=Tools%2Caudible%2C65&sr=1-1)
+    10) [wild](https://www.amazon.co.uk/Wild/dp/B00AVLLIS6/ref=sr_1_1?crid=H94J8UYQK7B6&keywords=wild&qid=1640616224&s=audible&sprefix=wild%2Caudible%2C68&sr=1-1)
+
+    Second-hand book
+
+   1) [walden](https://www.amazon.co.uk/Walden-Life-in-the-Woods/dp/B002SQB0SK/ref=sr_1_1?crid=31J73U955VMQW&keywords=walden&qid=1640626830&s=audible&sprefix=walden%2Caudible%2C73&sr=1-1 )
+    2) [The miracle morning](https://www.amazon.co.uk/Miracle-Morning-Not-So-Obvious-Guaranteed-Transform/dp/B00CLU9F62/ref=sr_1_1?crid=3NBZT1GZVUAIT&keywords=miracle+morning&qid=1640627311&s=audible&sprefix=mirac%2Caudible%2C58&sr=1-1) 
+    3) [e-squared](https://www.amazon.co.uk/Squared-Do-Yourself-Experiments-Thoughts/dp/B00JEI8AJW/ref=sr_1_1?crid=3AS1X3GIDWYRM&keywords=e-squared+pam+grout&qid=1640627527&sprefix=e-sq%2Caps%2C68&sr=8-1 )
+    4) [where the forest meets the stars](https://www.amazon.co.uk/Where-Forest-Meets-Stars/dp/B07K4CWNVB/ref=sr_1_1?crid=64GGI3CINBN9&keywords=where+the+forest+meets+the+stars%5C&qid=1640627746&s=audible&sprefix=where+the+forest+meets+the+stars%2Caudible%2C79&sr=1-1)
+    5) [Tracks](https://www.amazon.co.uk/Tracks-Robyn-Davidson/dp/1408896206/ref=sr_1_1?crid=2UOWFVLHEN7N&keywords=Tracks&qid=1640627998&s=books&sprefix=tracks%2Cstripbooks%2C45&sr=1-1 )
+    6) [ The wizard of oz]( https://www.amazon.co.uk/Wizard-Oz-Puffin-Clothbound-Classics/dp/0241411203/ref=sr_1_2?crid=1XRZSV9ZCWD06&keywords=the+wizards+of+oz+book&qid=1640628100&s=books&sprefix=the+wizards+of+oz%2Cstripbooks%2C56&sr=1-2)
+    7) [  Alice in wonderland]( https://www.amazon.co.uk/Alice-Wonderland-Original-Complete-Illustrations/dp/B0948LPG76/ref=sr_1_1?crid=3NGHB8346WMRH&keywords=alice+in+wonderland+book&qid=1640628199&s=books&sprefix=Alice%2Cstripbooks%2C79&sr=1-1)
+    8) [The little prince](https://www.amazon.co.uk/The-Little-Prince/dp/B0749QH1Q7/ref=sr_1_1?crid=3GPR3NS35I77O&keywords=little+prince&qid=1640628331&s=books&sprefix=little+pr%2Cstripbooks%2C68&sr=1-1)
+    9) [steve jobs](https://www.amazon.co.uk/Steve-Jobs-The-Exclusive-Biography/dp/B005Z267BO/ref=sr_1_1?keywords=steve+jobs&qid=1640634241&s=audible&sr=1-1)
+    10) [American gods]( https://www.amazon.co.uk/Annotated-American-Gods-Neil-Gaiman/dp/0062896261/ref=sr_1_8?crid=3QG2VQ9R5CVNY&keywords=american+gods+English+edition&qid=1640634466&s=books&sprefix=american+gods+english+edition%2Cstripbooks%2C42&sr=1-8)
     
-    4) Grammar and spelling checked from [Grammarly](www.grammarly.com/)
+4) Grammar and spelling checked from [Grammarly](www.grammarly.com/)
     
 
 
 * ### Media
 
+  * #### Images
+
   most of images I used I referenced below (Pixabay)/(Unsplash) and else below
 
-    1) [home background](https://pixabay.com/photos/books-bookshop-bookstore-collection-1842261/)
-
    Book(Fictions) 
+    1) [home background](https://pixabay.com/photos/books-bookshop-bookstore-collection-1842261/)
     2) [harry potter and the sorcerers stone](https://unsplash.com/photos/qXuMWgoga6Q) 
     3) [the load of ring](https://www.pexels.com/photo/silver-ring-on-book-page-3646901/)
     4) [The Alchemist](https://pixabay.com/illustrations/alchemy-wizards-magic-witchcraft-2146679/ )
@@ -584,72 +630,24 @@ There are six forms tests images below.
     7) [ becoming]( https://pixabay.com/photos/michelle-obama-official-portrait-1129160/)
     8) [ shoe dog](  https://pixabay.com/photos/shoes-footwear-fashion-fashionable-5644798/)
     9) [Tools of titans](https://unsplash.com/photos/fIq0tET6llw)
-    10) [wild]( https://unsplash.com/photos/BYcT33m_67w )
+    10) [wild]( https://unsplash.com/photos/BYcT33m_67w) 
+
   Second-hand book
 
-   1) [walden](https://pixabay.com/photos/small-house-in-the-woods-ground-5089594/ )
+    1) [walden](https://pixabay.com/photos/small-house-in-the-woods-ground-5089594/ )
     2) [The miracle morning](https://pixabay.com/photos/women-yoga-silhouettes-water-1822476/) 
     3) [e-squared](https://pixabay.com/photos/geometry-ruler-mathematics-drawing-4984912/)
-    4) [where the forest meets the stars)(https://pixabay.com/photos/starry-sky-mountains-landscape-4742306/)
+    4) [where the forest meets the stars](https://pixabay.com/photos/starry-sky-mountains-landscape-4742306/)
     5) [Tracks](  https://pixabay.com/photos/sand-desert-dry-hot-camels-1283284/  )
-    6) [ The wizard of oz]( https://pixabay.com/photos/scarecrow-actress-oz-show-hat-1534131/)
+    6) [The wizard of oz]( https://pixabay.com/photos/scarecrow-actress-oz-show-hat-1534131/)
     7) [  Alice in wonderland](  https://pixabay.com/photos/time-too-late-disneyland-minute-1786138/)
     8) [The little prince](  https://pixabay.com/photos/door-little-prince-saint-exupery-2082742/ )
     9) [steve jobs](https://pixabay.com/photos/steve-jobs-apple-iphone-ios-ajfoun-1049872/)
     10) [American gods]( https://pixabay.com/photos/sea-clouds-heaven-mood-eve-shine-783049/ )
 
-    Contents
-  Book(Fictions) 
-    1) [harry potter and the sorcerers stone](https://www.amazon.co.uk/Harry-Potter-Philosophers-Stone-Book/dp/B017V51FEG/ref=sr_1_1?crid=23YH2Q9HVQAWJ&keywords=harry+potter+and+the+sorcerers+stone&qid=1640606743&s=books&sprefix=harry+potter+and+the+sorcerers+stone%2Cstripbooks%2C77&sr=1-1) 
-    2) [the load of ring](https://www.amazon.co.uk/Fellowship-Ring-Lord-Rings-Book/dp/B098T7Y764/ref=sr_1_1?crid=4ITMSXL6INY4&keywords=the+load+of+ring&qid=1640606867&s=audible&sprefix=the+load+of+ring%2Caudible%2C46&sr=1-1)
-    3) [The Alchemist](https://www.amazon.co.uk/Alchemist-Fable-About-Following-Dream/dp/B0055HVN04/ref=sr_1_1?crid=2K3EZB7XJO3TF&keywords=The+Alchemist&qid=1640607003&s=audible&sprefix=the+alchemist%2Caudible%2C51&sr=1-1
-)
-    4) [Hobbit](https://www.amazon.co.uk/The-Hobbit/dp/B0030ED3CA/ref=sr_1_1?crid=20452KCOWTHT1&keywords=Hobbit&qid=1640607233&s=books&sprefix=hobbit%2Cstripbooks%2C59&sr=1-1)
-    5) [Norse Mythology](https://www.amazon.co.uk/Norse-Mythology/dp/B06WWM5HRC/ref=sr_1_1?crid=1LT92BBO5WU2K&keywords=Norse+Mythology&qid=1640607340&s=books&sprefix=norse+mythology%2Cstripbooks%2C58&sr=1-1)
-    6) [the midnight library](https://www.amazon.co.uk/The-Midnight-Library/dp/B085LJ5BVY/ref=sr_1_1?crid=37Y9Q6JSLD516&keywords=the+midnight+library&qid=1640607449&s=audible&sprefix=the+midnight+library%2Caudible%2C46&sr=1-1
-)
-    7) [pride and prejudice]( https://www.amazon.co.uk/Pride-and-Prejudice/dp/B016LMY7C2/ref=sr_1_1?crid=1D1GYKPQSP1VV&keywords=pride+and+prejudice&qid=1640607596&s=audible&sprefix=pride+and+prejudice%2Caudible%2C52&sr=1-1)
-    8) [a tale of two cities](https://www.amazon.co.uk/A-Tale-of-Two-Cities/dp/B002SQF7G6/ref=sr_1_1?crid=7UYBJR8ORRMC&keywords=a+tale+of+two+cities&qid=1640607773&s=audible&sprefix=a+tale+of+two+cities%2Caudible%2C53&sr=1-1)
-    9) [the great gatsby](https://www.amazon.co.uk/Great-Gatsby-Wordsworth-Collectors-Editions/dp/1840227958/ref=sr_1_1?crid=3SJPONKPOP4YX&keywords=The+Great+Gatsby&qid=1640605831&s=books&sprefix=the+great+gatsby%2Cstripbooks%2C51&sr=1-1
-)
-    10) [Dune](https://www.amazon.co.uk/Dune/dp/B002SQ5UD6/ref=sr_1_1?crid=1BGVDH7BQ2UK3&keywords=Dune&qid=1640607875&s=audible&sprefix=dune%2Caudible%2C47&sr=1-1)
+   
 
-  Non-Finctions
-
-   1) [into the air](https://www.amazon.co.uk/Into-Thin-Air/dp/B01C99MCNC/ref=sr_1_1?crid=1ZA3J5H2JQVJM&keywords=Into+the+air&qid=1640617158&s=audible&sprefix=into+the+air%2Caudible%2C47&sr=1-1
-)
-    2) [Will](https://www.amazon.co.uk/Audible-Will/dp/B097N6LDMF/ref=sr_1_1?crid=15MV1JWS5EJ05&keywords=will+smith+book&qid=1640615664&s=books&sprefix=will%2Cstripbooks%2C74&sr=1-1) 
-    3) [Greenlights](https://www.amazon.co.uk/Greenlights/dp/B08DYFWZGM/ref=sr_1_1?crid=1WH9XQNGCUZEY&keywords=Greenlights&qid=1640617358&s=audible&sprefix=greenlights%2Caudible%2C52&sr=1-1
-
-    4) [Born a Crime]( https://www.amazon.co.uk/Born-Crime-Stories-African-Childhood/dp/B01M6W3BAI/ref=sr_1_1?crid=2FC3H0PPTF21V&keywords=born+a+crime&qid=1640617562&s=audible&sprefix=born+a%2Caudible%2C61&sr=1-1
-)
-    5) [atomic habits]( https://www.amazon.co.uk/Atomic-Habits-Proven-Build-Break/dp/B07J1XQSNK/ref=sr_1_1?crid=IQBI6BPD6PN4&keywords=atomic+habits&qid=1640618073&s=audible&sprefix=automic%2Caudible%2C61&sr=1-1  )
-    6) [ a promised land](https://www.amazon.co.uk/A-Promised-Land/dp/B08JCM5KHZ/ref=sr_1_1?crid=GU59BW4410YD&keywords=a+promised+land&qid=1640618372&s=audible&sprefix=a+pro%2Caudible%2C69&sr=1-1
-)
-    7) [ becoming]( https://www.amazon.co.uk/Becoming/dp/B07B3G4PQB/ref=sr_1_1?crid=1GVGFYMXDEB9V&keywords=becoming&qid=1640617863&s=audible&sprefix=becoming%2Caudible%2C56&sr=1-1
-
-    8) [ shoe dog]( https://www.amazon.co.uk/Shoe-Dog-Memoir-Creator-Nike/dp/B07RRJNGX9/ref=sr_1_1?crid=3S5M2CHJPJDVI&keywords=shoe+dog&qid=1640616828&s=audible&sprefix=shoe+%2Caudible%2C59&sr=1-1
-)
-    9) [Tools of titans](https://www.amazon.co.uk/Tools-Titans-Billionaires-World-Class-Performers/dp/B082VKL6VC/ref=sr_1_1?crid=11F99QERFPGVS&keywords=tools+of+titans&qid=1640616549&s=audible&sprefix=Tools%2Caudible%2C65&sr=1-1
-)
-    10) [wild](https://www.amazon.co.uk/Wild/dp/B00AVLLIS6/ref=sr_1_1?crid=H94J8UYQK7B6&keywords=wild&qid=1640616224&s=audible&sprefix=wild%2Caudible%2C68&sr=1-1
-)
-  Second-hand book
-
-   1) [walden](https://www.amazon.co.uk/Walden-Life-in-the-Woods/dp/B002SQB0SK/ref=sr_1_1?crid=31J73U955VMQW&keywords=walden&qid=1640626830&s=audible&sprefix=walden%2Caudible%2C73&sr=1-1 )
-    2) [The miracle morning](https://www.amazon.co.uk/Miracle-Morning-Not-So-Obvious-Guaranteed-Transform/dp/B00CLU9F62/ref=sr_1_1?crid=3NBZT1GZVUAIT&keywords=miracle+morning&qid=1640627311&s=audible&sprefix=mirac%2Caudible%2C58&sr=1-1) 
-    3) [e-squared](https://www.amazon.co.uk/Squared-Do-Yourself-Experiments-Thoughts/dp/B00JEI8AJW/ref=sr_1_1?crid=3AS1X3GIDWYRM&keywords=e-squared+pam+grout&qid=1640627527&sprefix=e-sq%2Caps%2C68&sr=8-1 
-)
-    4) [where the forest meets the stars)(https://www.amazon.co.uk/Where-Forest-Meets-Stars/dp/B07K4CWNVB/ref=sr_1_1?crid=64GGI3CINBN9&keywords=where+the+forest+meets+the+stars%5C&qid=1640627746&s=audible&sprefix=where+the+forest+meets+the+stars%2Caudible%2C79&sr=1-1)
-    5) [Tracks](https://www.amazon.co.uk/Tracks-Robyn-Davidson/dp/1408896206/ref=sr_1_1?crid=2UOWFVLHEN7N&keywords=Tracks&qid=1640627998&s=books&sprefix=tracks%2Cstripbooks%2C45&sr=1-1 )
-    6) [ The wizard of oz]( https://www.amazon.co.uk/Wizard-Oz-Puffin-Clothbound-Classics/dp/0241411203/ref=sr_1_2?crid=1XRZSV9ZCWD06&keywords=the+wizards+of+oz+book&qid=1640628100&s=books&sprefix=the+wizards+of+oz%2Cstripbooks%2C56&sr=1-2)
-    7) [  Alice in wonderland]( https://www.amazon.co.uk/Alice-Wonderland-Original-Complete-Illustrations/dp/B0948LPG76/ref=sr_1_1?crid=3NGHB8346WMRH&keywords=alice+in+wonderland+book&qid=1640628199&s=books&sprefix=Alice%2Cstripbooks%2C79&sr=1-1)
-    8) [The little prince](https://www.amazon.co.uk/The-Little-Prince/dp/B0749QH1Q7/ref=sr_1_1?crid=3GPR3NS35I77O&keywords=little+prince&qid=1640628331&s=books&sprefix=little+pr%2Cstripbooks%2C68&sr=1-1
- )
-    9) [steve jobs](
-https://www.amazon.co.uk/Steve-Jobs-The-Exclusive-Biography/dp/B005Z267BO/ref=sr_1_1?keywords=steve+jobs&qid=1640634241&s=audible&sr=1-1)
-    10) [American gods]( https://www.amazon.co.uk/Annotated-American-Gods-Neil-Gaiman/dp/0062896261/ref=sr_1_8?crid=3QG2VQ9R5CVNY&keywords=american+gods+English+edition&qid=1640634466&s=books&sprefix=american+gods+english+edition%2Cstripbooks%2C42&sr=1-8
- )
+  
 
 
 * ### Acknowledgements
