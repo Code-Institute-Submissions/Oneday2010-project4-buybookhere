@@ -24,5 +24,6 @@ class CategoryAdmin(admin.ModelAdmin):
         'title',
     )
 
+
 admin.site.register(Book, BookAdmin)
 admin.site.register(Category, CategoryAdmin)
