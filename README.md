@@ -410,7 +410,9 @@ easily navigate the each pages.
 
 -> login with bookseller(Primary admin), site shows edit/delete button on books and book manager page.
 
-There are six forms tests images below. 
+There are forms tests images below. 
+
+
 
 
 # Links : 
@@ -434,6 +436,21 @@ There are six forms tests images below.
 
 
   - I tested on Safari,Chrome, Firefox it was performed without issue. 
+
+- There are three forms tests images below.    
+
+     - account confirm email 
+
+    ![account confirm email](readme_img/form_test/account_confirm.png)
+
+     - order confirm email 
+
+    ![order confirm email](readme_img/form_test/order_email.png)
+
+
+     - password change
+
+    ![password change](readme_img/form_test/password_confirm.png)
 
 #### Validation
 
@@ -474,6 +491,11 @@ There are six forms tests images below.
 
     After I tried to send my send test event on 
 https://buybookhere.herokuapp.com/checkout/wh/ and I got 404 error and It kept failing the test. I searched Slack and found advice from there, I share my godpod workplace with the public and try the test again and after it worked. 
+
+ - bug4
+
+    ![bug3](readme_img/bug4.png)
+  I was testing my email confirmations after the user check out the book. It didn't send any email and I got help from Igor (tutor) and he found that there is an extra line on confrimation_email_subject.txt. I delated the extra line and could get the order confirmation email. 
 
   
 
