@@ -370,6 +370,8 @@ input[name='q']::placeholder {
         font-size: 1rem;
     }
 
+    
+
     #delivery-banner h4 {
         font-size: .9rem;
     }
@@ -389,4 +391,5 @@ input[name='q']::placeholder {
     .decrement-qty {
         padding: .25rem .5rem !important;
     }
+   
 }
