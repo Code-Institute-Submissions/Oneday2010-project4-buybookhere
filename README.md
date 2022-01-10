@@ -382,7 +382,7 @@ easily navigate the each pages.
 
 ### Other
 
- - [Code institute Course](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment) - my primary source of leaning code. ![Project - Boutique Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/933797d5e14d6c3f072df31adf0ca6f938d02218)
+ - [Code institute Course](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment) - my primary source of leaning code. [Project - Boutique Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/933797d5e14d6c3f072df31adf0ca6f938d02218)
  - [ChromeDevTools](https://developer.chrome.com/docs/devtools/)- Used eachtime when I check error/issue on my site.
  - [W3Schools](https://www.w3schools.com/js/default.asp) - often use for css and javascript code tips
  - [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the layout of the website looks across different devices.
@@ -409,10 +409,6 @@ easily navigate the each pages.
     
 
 -> login with bookseller(Primary admin), site shows edit/delete button on books and book manager page.
-
-There are forms tests images below. 
-
-
 
 
 # Links : 
