@@ -565,19 +565,25 @@ https://buybookhere.herokuapp.com/checkout/wh/ and I got 404 error and It kept f
 
 
 ### Remote Deployment  
-This site is currently deployed on Heroku using the main branch on GitHub. To implement this project on Heroku, the following steps were taken:
+ - create new app on Heroku and give a name (buybookhere) in Heroku site. 
 
-- Create a requirements.txt file so Heroku can install the required dependencies to run the app. "pip3 freeze --local > requirements.txt".
+ - Back to gitpod install dj_database_url, and psycopg2 and freeze requirements. 
 
-- Create a Procfile to tell Heroku what type of application is being deployed, and how to run it. echo web: python app.py > Procfile
+ - On setting import dj_database_url and comment out the default configuration and replace the default database with a call to dj_database_url.parse and give it the database URL from Heroku.
 
-- Sign up for a free Heroku account, create your project app, and click the Deploy tab, at which point you can Connect GitHub as the Deployment Method, and select Enable Automatic Deployment.
+ - Run migrations. Use command python3 manage.py load data categories and book to import all our book data use fixtures.
 
-- In the Heroku Settings tab, click on the Reveal Config Vars button to configure environmental variables as follows:
+ - Use python3 manage.py create superuser /install unicorn(act as my webserver) and freeze again. Create Procfile to tell Heroku to create a web dyno.
+
+ - In the Heroku Settings tab, click on the Reveal Config Vars button to configure environmental variables as follows:
  AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY / DATABASE_URL / EMAIL_HOST_PASS / EMAIL_HOST_USER /SECRET_KEY/STRIPE_PUBLIC_KEY/
  STRIPE_SECRET_KEY / STRIPE_WH_SECRET /USE_AWS 
 
-- Back to diploy section and try diploy your app. Your app should be successfully deployed to Heroku at this point.
+ - Add hostname on setting.py and push gitpod and heroku main to deploy. 
+
+ - In Heroku website in my app, deploy tab and set it to connect to my repository in github. 
+ 
+ - last enable automatic deploys. 
 
   
 
