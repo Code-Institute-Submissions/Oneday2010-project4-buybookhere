@@ -1,5 +1,5 @@
 {% if item.book.image %}
-<img class="img-fluid rounded" src="{{ item.book.image.url }}" alt="{{ item.book.title }}">
+<img class="img-fluid rounded shadow p-3 mb-0 bg-white" src="{{ item.book.image.url }}" alt="{{ item.book.title }}">
 {% else %}
-<img class="img-fluid rounded" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.book.title }}">
+<img class="img-fluid rounded shadow p-3 mb-0 bg-white" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.book.title }}">
 {% endif %}
