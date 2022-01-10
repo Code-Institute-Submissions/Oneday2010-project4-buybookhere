@@ -559,9 +559,24 @@ https://buybookhere.herokuapp.com/checkout/wh/ and I got 404 error and It kept f
 
 ### Local Deployment
 
+  - I created apps and in my buybookhere setting, I added all the information following :
+
+    os.environ.setdefault("SECRET_KEY",'')("DATABASE_URL",'')("STRIPE_SECRET",'')("STRIPE_PUBLISHABLE",'')("AWS_ACCESS_KEY_ID",'')("AWS_SECRET_ACCESS_KEY",'')
+
+  - Import dj_database_url.
+
+  -  DEBUG = 'DEVELOPMENT' in os.environ  (In my Environment Variables in gitpod, my project DEVELOPMENT to be true and add secret key too.)
+
+  - if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
   
 
-   
+  - ALLOWED_HOSTS = ['buybookhere.herokuapp.com', 'localhost']. In this way will be deployed locally too. 
+
+  - make sure do migration, push all the change. 
+
 
 
 ### Remote Deployment  
