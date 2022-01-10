@@ -32,7 +32,7 @@
             <div class="row">
                 {% for book in books %}
                 <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                    <div class="card h-100 shadow p-3 mb-0 bg-white rounded">
                         {% if book.image %}
                         <a href="{% url 'book_detail' book.id %}">
                             <img class="card-img-top img-fluid" src="{{ book.image.url }}" alt="{{ book.title }}">
@@ -42,7 +42,7 @@
                             <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ book.title }}">
                         </a>
                         {% endif %}
-                        <div class="card-body pb-1">
+                        <div class="card-body pb-2">
                             {% if book.category %}
                             <small class="small mt-1 mb-0">
                                 <a class="text-muted" href="{% url 'books' %}?category={{ book.category.title }}">
@@ -60,7 +60,7 @@
    
                         </div>
                         <h5 class="text-center title mb-0">{{ book.title }}</h5>
-                        <div class="card-body pb-1">
+                        <div class="card-body pb-0">
                             <p class="text-center mb-0"><em>By {{ book.author }}</em></p>
                         </div>
 
