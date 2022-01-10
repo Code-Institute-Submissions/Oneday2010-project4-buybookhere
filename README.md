@@ -241,7 +241,7 @@ easily navigate the each pages.
 
  - small up arrow button help to viewer can go topup with one click
 
-### Non-Fictions ![nonfictions](readme_img/site_view/nonfictions.png)
+### Non-Fictions ![nonfictions](readme_img/site_view/nonfictions_page.png)
 
  - show all Non-fictions categorised book. 
 
