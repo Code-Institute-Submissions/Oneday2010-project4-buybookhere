@@ -447,6 +447,10 @@ easily navigate the each pages.
      - password change
 
     ![password change](readme_img/form_test/password_confirm.png)
+     
+     - Stripe payment succeeded
+    
+    ![Stripe payment succeeded](readme_img/form_test/stripe_screenshot.jpg)
 
 #### Validation
 
@@ -713,6 +717,6 @@ https://buybookhere.herokuapp.com/checkout/wh/ and I got 404 error and It kept f
 
     1) [Code institute](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment)
 
-    2) I got great help from elerel's [readme reference](https://github.com/elerel/ms1-go2snow/blob/master/README.md#overview) and pramcistudent'[readme reference](https://github.com/pramcistudent/cookbook-project3/blob/master/README.md#local-deployment)
+    2) I got great help from elerel's [readme reference](https://github.com/elerel/ms1-go2snow/blob/master/README.md#overview) and feddrik360's [readme reference](https://github.com/feddrik360/Milestone_project4)
 
-    3) My mentor Nishant Kumar's support gives me great help and Thanks to my tutors. 
+    3) My mentor Nishant Kumar's support gives me great help and great thanks to my tutors. 
