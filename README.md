@@ -90,6 +90,7 @@ It also gets secure confirmation after the order submits. The admin can do manag
         
 
   * As Regular User:
+  
     "I want to see my profile on the site because I sign up for the website"
 
     " I want to check my order history"
