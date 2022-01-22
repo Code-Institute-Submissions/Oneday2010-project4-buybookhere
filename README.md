@@ -581,25 +581,129 @@ https://buybookhere.herokuapp.com/checkout/wh/ and I got 404 error and It kept f
 
 
 ### Remote Deployment  
- - create new app on Heroku and give a name (buybookhere) in Heroku site. 
 
- - Back to gitpod install dj_database_url, and psycopg2 and freeze requirements. 
+#### Heroku deployment
+
+ - create new app on Heroku and give a name (buybookhere) in Heroku site.
+
+ -  On the resources tab, provision a new Postgres database
+ 
+ -  Back to gitpod install dj_database_url, and psycopg2-binary and freeze requirements.
 
  - On setting import dj_database_url and comment out the default configuration and replace the default database with a call to dj_database_url.parse and give it the database URL from Heroku.
 
- - Run migrations. Use command python3 manage.py load data categories and book to import all our book data use fixtures.
+ -  Run migrations. 
 
- - Use python3 manage.py create superuser /install unicorn(act as my webserver) and freeze again. Create Procfile to tell Heroku to create a web dyno.
+ - Use command python3 manage.py load data categories and book to import all our book data use fixtures.
 
- - In the Heroku Settings tab, click on the Reveal Config Vars button to configure environmental variables as follows:
- AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY / DATABASE_URL / EMAIL_HOST_PASS / EMAIL_HOST_USER /SECRET_KEY/STRIPE_PUBLIC_KEY/
- STRIPE_SECRET_KEY / STRIPE_WH_SECRET /USE_AWS 
+ - Use python3 manage.py create superuser ( make sure remove the Heroku database config, it doesn't end up in verson control) 
 
- - Add hostname on setting.py and push gitpod and heroku main to deploy. 
+ - install unicorn(act as my webserver) and freeze again. Create Procfile to tell Heroku to create a web dyno.
 
- - In Heroku website in my app, deploy tab and set it to connect to my repository in github. 
+ - Temporarily disable collectstatic( heroku config:set DISABLE_COLLECTSTATIC=1 --app buybookhere) -> Heroku won't try to collect static files when we deploy
+
+ - Add hostname on setting.py and push gitpod and heroku main to deploy.
+
+ - In the Heroku Settings tab, click on the Reveal Config Vars button to configure environmental variables as follows: AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY / DATABASE_URL /  EMAIL_HOST_PASS / EMAIL_HOST_USER /SECRET_KEY/STRIPE_PUBLIC_KEY/ STRIPE_SECRET_KEY / STRIPE_WH_SECRET /USE_AWS
+   ( all AWS configures will come with AWS deployment process) 
+
+ - In Heroku website in my app, deploy tab and set it to connect to my repository in github.
+
+ - last enable automatic deploys.
+
+
+
+
+
+
+#### Amazno Web Services > -> Place store buybookhere static files and images
+
+S3
+
+1) Create an AWS account on aws.amazon.com
+2) sign-in to AWS management console and search for s3 service
+3) open s3 and create new bucket (name buybookhere)
+4) make sure uncheck block all public access ( bucket will be public in order to allow public access to my static files)
+5) setting -> 
+  1. properties : turn on static website hosting (new endpoint, use default values on index and error document and save)
+
+  2. permissions : - pastes in a coors configuration
+  3. bucket policy tab : select policy generator, copy the ARN (Amazon resource name) and paste it into the ARN box and add statement. Then generate policy. Copy this policy into the bucket policy editor.  ( add/* onto the end of the resource key) and save
+  4. control list tab : set the list objects permission for everyone.
+
+IAM(Identify and access management) -> user to access 
+
+1) search Iam service
+2) create a group(buybookhere) and create policy -> JSON tab, import managed policy (import the s3 access policy),paste ARN from bucket policy page in s3. -> Create policy.  
+3) attach the policy to the group ( search the one create above and select)
+4) user's page, add user (user name and programatic access), put the user in the group-> create user
+5) download the CSV file ( contain user access key and secret access key) -> use to authenticate them from my Jango app
+
+< Connect django with AWS >
+
+1) install boto3 and django-storages to gitpod -> freeze to requirement.txt file, so will get installed on Heroku when it get deployed. 
+2) add setting in settings.py
+    if 'USE_AWS' in os.environ:
+
+    Cache control
+    AWS_S3_OBJECT_PARAMETERS = {
+        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+        'CacheControl': 'max-age=94608000',
+    }
+
+    Bucket Config
+    AWS_STORAGE_BUCKET_NAME = 'buybookhere'
+    AWS_S3_REGION_NAME = 'eu-west-1'
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
  
- - last enable automatic deploys. 
+    
+
+3) Go Heroku and add AWS keys to config variables and add USE_AWS set to true. 
+    -> setting files knows to use the AWS configuration when I deply to heroku.
+4) Remove the disable collectstatic variable => django will collectstatic files automatically and upload them to s3
+
+5) Tell django where my static files will be coming from in book.
+
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+
+6) Create file called custom storages -> from django.conf import settings
+                                                              from storages.backends.s3boto3 import S3Boto3Storage
+7) Create class StaticStorage and MediaStorage in the custom storages.py
+
+8) Settings.py tell want to use my storage class
+	STATIC_URL = '/static/'
+	STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+
+	MEDIA_URL = '/media/'
+	MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+  
+9) lead to custom domain and the new locations, Heroku will find the static files. Whenever collectstatci is run, static files will be collected into a static folder in my s3 bucket. 
+
+10) save, commit and push on gitpod. 
+
+11) check the s3 and find new static folder
+
+12) AWS_S3_OBJECT_PARAMETERS into setting.py for cache static files for a long time.  
+
+13) add media files on s3 (create new folder 'media' and upload all the images)
+ 
+14) grant public read access to these objects and upload. 
+
+15) Go Django admin and confirmed the email address for my superuser on the Postgres database. 
+
+( get this link form Heroku app logs)
+
+16) add stripe keys to the Heroku config variables
+
+17) create new webhook endpoint ( Stripe developer's menu -> adding the URL : https://buybookhere.herokuapp.com/checkout/wh/)
+
+-> selecting receive all events 
+
+18) After test webhook and make sure that m listener is working. 
+
+19) Check all the deployment and tested. 
+
 
   
 
