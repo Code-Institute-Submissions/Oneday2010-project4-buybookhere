@@ -8,7 +8,6 @@ from django_countries.fields import CountryField
 
 from books.models import Book
 from profiles.models import UserProfile
-from comments.models import UserComment
 
 # refer to https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/933797d5e14d6c3f072df31adf0ca6f938d02218
 
@@ -16,9 +15,7 @@ from comments.models import UserComment
 class Order(models.Model):
     order_number = models.CharField(max_length=32, null=False, editable=False)
     user_profile = models.ForeignKey(UserProfile, on_delete=models.SET_NULL,
-                                     null=True, blank=True, related_name='orders')
-    user_comment = models.ForeignKey(UserComment, on_delete=models.SET_NULL,
-                                     null=True, blank=True, related_name='orders')                                 
+                                     null=True, blank=True, related_name='orders')                              
     full_name = models.CharField(max_length=50, null=False, blank=False)
     email = models.EmailField(max_length=254, null=False, blank=False)
     phone_number = models.CharField(max_length=20, null=False, blank=False)
