@@ -35,4 +35,3 @@ def create_or_update_user_comment(sender, instance, created, **kwargs):
     # Existing users: just save the comment
     instance.usercomment.save()
 
-
