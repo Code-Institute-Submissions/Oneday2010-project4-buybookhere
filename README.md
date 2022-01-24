@@ -560,9 +560,9 @@ https://buybookhere.herokuapp.com/checkout/wh/ and I got 404 error and It kept f
 
 ### Local Deployment
 
-  - I created apps and in my buybookhere setting, I added all the information following :
+  - create an setting.py file in the root directory of the project, and add it to the .gitignore file. This project will only run locally if an esetting.py file is set up containing the IP, PORT and SECRET_KEY. As per security measures advised, these details will not be shared on this documentation. The following code to be added to the setting.py:
 
-    os.environ.setdefault("SECRET_KEY",'')("DATABASE_URL",'')("STRIPE_SECRET",'')("STRIPE_PUBLISHABLE",'')("AWS_ACCESS_KEY_ID",'')("AWS_SECRET_ACCESS_KEY",'')
+  -  os.environ.setdefault("SECRET_KEY",'')("DATABASE_URL",'')("STRIPE_SECRET",'')("STRIPE_PUBLISHABLE",'')("AWS_ACCESS_KEY_ID",'')("AWS_SECRET_ACCESS_KEY",'')
 
   - Import dj_database_url.
 
@@ -578,7 +578,12 @@ https://buybookhere.herokuapp.com/checkout/wh/ and I got 404 error and It kept f
 
   - make sure do migration, push all the change. 
 
+  - Load the fixtures from the 'books.json' and 'categories.json' files - which are contained in the 'fixtures' folder into the database. 
+     python3 manage.py loaddata <file name> 
+ 
+  - Create a superuser with the following command: python3 manage.py runserver and entering your credentials.
 
+  - Run the app by entering the following command: python3 manage.py runserver
 
 ### Remote Deployment  
 
