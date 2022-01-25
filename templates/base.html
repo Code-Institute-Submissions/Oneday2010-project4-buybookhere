@@ -72,12 +72,12 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item">
-                        <a class="text-black nav-link"
+                        <a class="text-info font-weight-bold text-black nav-link"
                             href="{% url 'blog' %}">
                             <div class="text-center">
                                 <div><i class="fas fa-pen fa-lg"></i></div>
                                 <p class="my-0">
-                                   blog
+                                    Blog
                                 </p>
                             </div>
                         </a>
@@ -110,6 +110,7 @@
                             {% if request.user.is_authenticated %}
                             {% if request.user.is_superuser %}
                             <a href="{% url 'add_book' %}" class="dropdown-item">My Book</a>
+                            <a href="{% url 'add_blog' %}" class="dropdown-item">My Blog</a>
                             {% endif %}
                             <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
                             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>

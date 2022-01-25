@@ -62,6 +62,7 @@
             {% if request.user.is_authenticated %}
             {% if request.user.is_superuser %}
             <a href="{% url 'add_book' %}" class="dropdown-item">My Book</a>
+            <a href="{% url 'add_blog' %}" class="dropdown-item">MY Blog</a>
             {% endif %}
             <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
