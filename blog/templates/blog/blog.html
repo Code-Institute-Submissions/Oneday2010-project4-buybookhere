@@ -8,20 +8,54 @@
     </div>
 </div>
 {% endblock %}
-
 {% block content %}
-<div class="container h-100">
-    <div class="row h-100">
-        <div class="col-12 my-auto centered">
-            <h1 class="display-4 logo-font text-black text-black-home">
-               blog
-            </h1>
-            <div class="my-5">
-                <h4>
-                    <a href="" class="shop-now-button btn btn-lg rounded-5 text-uppercase py-3">blog</a>
-                </h4>
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
+            <div class="image-container my-5">
             </div>
+        </div>
+        <!--Blog post title/author-->
+        <div class="container-blog">
+            <div class="row bag-header">
+                <div class="col-10 offset-1 text-center">
+                    <h1 class="text-white font-weight-bold text-capitalize">{{ blog.title }}</h1>
+                    <p class="text-center mb-0">
+                        {% if blog.author %}
+                        <em>by: {{ blog.author }}</em>
+                        {% endif %}
+                    </p>
+                </div>
+            </div>
+
+            <!--Blog post if image uploaded-->
+            <div class="d-flex justify-content-center">
+                <div class="mt-4">
+                    <div class="blog-image-detail h-50">
+                        {% if blog.image %}
+                        <img class="img-fluid" src="{{ blog.image.url }}" alt="{{ blog.title }}">
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+
+            
+          
         </div>
     </div>
 </div>
-{% endblock %}
+<div class="btt-button">
+    <a class="btt-link d-flex h-100">
+       <i class="fas fa-arrow-up white-arrow mx-auto my-auto"></i>
+    </a>
+ </div>
+ {% endblock %}
+ {% block postloadjs %}
+ {{ block.super }}
+ <script type="text/javascript">
+    $('.btt-link').click(function (e) {
+       window.scrollTo(0, 0)
+    })
+ </script>
+ {% endblock %}
