@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
+   
 {% endblock %}
 
 {% block page_header %}
@@ -48,14 +48,7 @@
             <!--Blog Text Section/for superuser to edit/delete-->
             <div class="row mt-3">
                 <div class="blog-content-container container">
-                    <p class="text-center">{{ blog.intro }}</p>
-                    <p class="text-center">{{ blog.body_one }}</p>
-                    {% if blog.body_two %}
-                    <p class="text-center">{{ blog.body_two }}</p>
-                    {% endif %}
-                    {% if blog.body_three %}
-                    <p class="text-center">{{ blog.body_three }}</p>
-                    {% endif %}
+                    <p class="text-center">{{ blog.body }}</p>
                     {% if request.user.is_superuser %}
                     <small class="ml-3">
                         <a href="{% url 'edit_blog' blog.id %}" class="blog-edit-btn">Edit </a> |
@@ -105,7 +98,7 @@
                                 <span class="icon">
                                     <i class="fas fa-chevron-left"></i>
                                 </span>
-                                <span class="text-uppercase">View Our Products</span>
+                                <span class="text-uppercase">View Our books</span>
                             </a>
                             <a href="{% url 'blog' %}" class="btn btn-outline-black">
                                 <span class="icon">
