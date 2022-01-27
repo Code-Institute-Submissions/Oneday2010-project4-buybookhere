@@ -37,7 +37,7 @@
             <!--Blog post if image uploaded-->
             <div class="d-flex justify-content-center">
                 <div class="mt-4">
-                    <div class="blog-image-detail h-50">
+                    <div class="h-50">
                         {% if blog.image %}
                         <img class="img-fluid" src="{{ blog.image.url }}" alt="{{ blog.title }}">
                         {% endif %}
@@ -47,7 +47,7 @@
 
             <!--Blog Text Section/for superuser to edit/delete-->
             <div class="row mt-3">
-                <div class="blog-content-container container">
+                <div class="container">
                     <p class="text-center">{{ blog.body }}</p>
                     {% if request.user.is_superuser %}
                     <small class="ml-3">

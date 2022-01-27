@@ -18,9 +18,9 @@
    <h1 class="logo-font mb-4 "><i class="fas fa-pen fa-lg"></i> Welcome To buybook here Blog</h1>
    <p>Book news, reviews and recommendations</p>
 </div>
-<div class="container blog-container">
-   <div class="card-style-blog">
-      <div class="blog-card-body ">
+<div class="container">
+   <div>
+      <div>
          {% for blog in blogs %}
          <div class="card my-4 shadow p-3 mb-0 bg-white rounded text-center">
             <p class="font-weight-bold text-uppercase logo-font">{{ blog.title }}</p>
@@ -32,8 +32,8 @@
             </p>
             {% if request.user.is_superuser %}
             <small class="ml-3">
-               <a href="{% url 'edit_blog' blog.id %}" class="blog-edit-btn">Edit</a> |
-               <button type="button" class="btn btn-sm text-danger faq-delete-btn" data-toggle="modal"
+               <a href="{% url 'edit_blog' blog.id %}">Edit</a> |
+               <button type="button" class="btn btn-sm text-danger" data-toggle="modal"
                   data-target="#deleteBlog_{{blog.id}}">
                   Delete
                </button>
@@ -57,7 +57,7 @@
                            {{ blog.title }}</strong>?</p>
                   </div>
                   <div class="modal-footer">
-                     <button type="button" class="btn shop-btn rounded-0 text-uppercase text-green"
+                     <button type="button" class="btn rounded-0 text-uppercase text-green"
                         data-dismiss="modal">Cancel</button>
                      <a class="delete-link rounded-0 text-uppercase text-danger"
                         href="{% url 'delete_blog' blog.id %}">Delete</a>
