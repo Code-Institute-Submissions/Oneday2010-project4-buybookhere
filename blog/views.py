@@ -32,7 +32,7 @@ def add_blog(request):
     """ Add a blog post to the blog """
 
     if not request.user.is_superuser:
-        messages.error(request, 'Only our siopaFIA team can access this.')
+        messages.error(request, 'Only admin can access this.')
         return redirect(reverse('homepage'))
 
     if request.method == 'POST':
@@ -59,7 +59,7 @@ def add_blog(request):
 def edit_blog(request, blog_id):
     """ Edit a blog"""
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only siopaFIA admin can do that.')
+        messages.error(request, 'Sorry, only admin can do that.')
         return redirect(reverse('home'))
 
     blog = get_object_or_404(Blog, pk=blog_id)

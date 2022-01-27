@@ -25,7 +25,7 @@
         <div class="container-blog">
             <div class="row bag-header">
                 <div class="col-10 offset-1 text-center">
-                    <h1 class="text-white font-weight-bold text-capitalize">{{ blog.title }}</h1>
+                    <h1 class="text-black font-weight-bold text-capitalize">{{ blog.title }}</h1>
                     <p class="text-center mb-0">
                         {% if blog.author %}
                         <em>by: {{ blog.author }}</em>
@@ -72,7 +72,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <p class="text-center logo-font text-green">Are you sure you want to delete<strong>
+                                    <p class="text-center logo-font text-green">Delate this post?<strong>
                                             {{ blog.title }}</strong>?</p>
                                 </div>
                                 <div class="modal-footer">
@@ -85,26 +85,14 @@
                         </div>
                     </div>
 
-                    <!--Homepage/Keep Shopping buttons-->
-                    <div class="row blog-page-btns">
-                        <div class="col">
-                            <a href="{% url 'home' %}" class="btn btn-outline-black">
+                    <!--Homepage-->
+                    <div class="row">
+                        <div class="col p-4">
+                            <a href="{% url 'blog' %}" class="btn btn-outline-black rounded-3 btn-lg ">
                                 <span class="icon">
                                     <i class="fas fa-chevron-left"></i>
                                 </span>
-                                <span class="text-uppercase">Home</span>
-                            </a>
-                            <a href="{% url 'books' %}" class="btn btn-outline-black">
-                                <span class="icon">
-                                    <i class="fas fa-chevron-left"></i>
-                                </span>
-                                <span class="text-uppercase">View Our books</span>
-                            </a>
-                            <a href="{% url 'blog' %}" class="btn btn-outline-black">
-                                <span class="icon">
-                                    <i class="fas fa-chevron-left"></i>
-                                </span>
-                                <span class="text-uppercase">Blogs</span>
+                                <span class="text-uppercase">Blog list</span>
                             </a>
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
@@ -115,17 +103,4 @@
         </div>
     </div>
 </div>
-<div class="btt-button">
-    <a class="btt-link d-flex h-100">
-       <i class="fas fa-arrow-up white-arrow mx-auto my-auto"></i>
-    </a>
- </div>
- {% endblock %}
- {% block postloadjs %}
- {{ block.super }}
- <script type="text/javascript">
-    $('.btt-link').click(function (e) {
-       window.scrollTo(0, 0)
-    })
- </script>
  {% endblock %}
