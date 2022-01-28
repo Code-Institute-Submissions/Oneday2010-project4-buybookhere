@@ -15,24 +15,34 @@
 {% block content %}
 <div class="overlay"></div>
 <div class="col-12 text-center welcome-blog-text">
-   <h1 class="logo-font mb-4 "><i class="fas fa-pen fa-lg"></i> Welcome To buybook here Blog</h1>
+   <h1 class="logo-font mb-4 ">New book is coming!! <i class="fas fa-book fa-lg"></i></h1>
    <p>Book news, reviews and recommendations</p>
 </div>
 <div class="container">
    <div>
       <div>
          {% for blog in blogs %}
+         
          <div class="card my-4 shadow p-3 mb-0 bg-white rounded text-center">
-            <p class="font-weight-bold text-uppercase logo-font">{{ blog.title }}</p>
+            <div class="d-flex justify-content-center">
+               <div class="mt-4">
+                   <div class="h-10">
+                       {% if blog.image %}
+                       <img class="img-fluid" src="{{ blog.image.url }}" alt="{{ blog.title }}">
+                       {% endif %}
+                   </div>
+               </div>
+           </div>
+            <p class="font-weight-bold text-uppercase logo-font p-3">{{ blog.title }}</p>
             <p>
                <p><em>{{ blog.body|truncatechars:150 }}</em></p>
                <a href="{% url 'blog_detail' blog.id %}"
-               class="text-success"><small>Read more</small></a>
+               class="text-primary p-2"><small>Read more</small> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                <p class="text-muted">By: {{ blog.author }} | {{ blog.published_date }}</p>
             </p>
             {% if request.user.is_superuser %}
-            <small class="ml-3">
-               <a href="{% url 'edit_blog' blog.id %}">Edit</a> |
+            <small class="ml-2">
+               <a class="text-success" href="{% url 'edit_blog' blog.id %}">Edit</a> |
                <button type="button" class="btn btn-sm text-danger" data-toggle="modal"
                   data-target="#deleteBlog_{{blog.id}}">
                   Delete

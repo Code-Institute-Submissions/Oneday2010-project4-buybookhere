@@ -48,7 +48,7 @@
             <!--Blog Text Section/for superuser to edit/delete-->
             <div class="row mt-3">
                 <div class="container">
-                    <p class="text-center">{{ blog.body }}</p>
+                    <p>{{ blog.body }}</p>
                     {% if request.user.is_superuser %}
                     <small class="ml-3">
                         <a href="{% url 'edit_blog' blog.id %}" class="blog-edit-btn">Edit </a> |
