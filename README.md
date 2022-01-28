@@ -486,6 +486,9 @@ easily navigate the each pages.
  - [Documentation on using Developer Tools Lighthouse](https://developers.google.com/web/tools/lighthouse) 
 
     ![Documentation on using Developer Tools Lighthouse](readme_img/test/lighthouse.jpg)
+    
+    ![Documentation on using Developer Tools Lighthouse](readme_img/test/lighthouse_blog.jpg)
+
 
 #### Project bug and solution
 
