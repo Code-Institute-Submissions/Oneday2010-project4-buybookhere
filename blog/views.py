@@ -4,6 +4,8 @@ from .models import Blog
 from .forms import BlogForm
 from django.contrib.auth.decorators import login_required
 
+# refer to https://github.com/elerel/ms4-siopa-fia
+
 
 def blog(request):
     """ A view to display all blogs """

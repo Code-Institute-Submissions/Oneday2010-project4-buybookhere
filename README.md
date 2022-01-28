@@ -175,9 +175,9 @@ The website shows three different ways. the non-registered user used the site an
 
  - Checkout and Thank you page
 
-![signup](readme_img/framework/frame_signup.png)
+![Blog](readme_img/framework/frame_blog.png)
 
- - Sign up
+ - Blog
 
  
 
@@ -263,6 +263,23 @@ easily navigate the each pages.
  - ordering quantity can be change with mouse click or keyboard type
 
  -  keep shopping link to the books page. 
+
+### Blog ![secondhandbooks](readme_img/site_view/blog_page.png)
+
+ - Inform the visiter/user/admin updated new book news
+
+ - link to blog detail page and admin able to edit and delate each blog
+
+ - add blog function for admin.
+
+### Blog_detail ![blog_detail](readme_img/site_view/blog_detail_page.png)
+
+ - Show user selected blog detail ( all visiter able to see the new book news)
+
+ - Details of the blog with redirect list button. 
+
+ - admin able to edit and delate
+
 
 ### Login ![login](readme_img/site_view/login_page.png)
 
@@ -409,8 +426,7 @@ easily navigate the each pages.
     - test2022 -> password : usertest
     
 
--> login with bookseller(Primary admin), site shows edit/delete button on books and book manager page.
-
+-> login with bookseller(Primary admin), site shows edit/delete button on books and my book page. Also site shows edit/delete button on blog and my blog page. Add book and add blog are only admin can do. 
 
 # Links : 
 
@@ -720,7 +736,11 @@ IAM(Identify and access management) -> user to access
 
 2) Primary front-end framework from [bootstrap](https://materializecss.com/)
 
-3) Amazon.co.uk [Amazon.co.uk](https://www.amazon.co.uk/s/ref=nb_sb_noss?url=search-alias%3Dstripbooks&field-keywords=&ref=nb_sb_noss&crid=1T8BB5M2AUKBK&sprefix=%2Cstripbooks%2C67) 
+3) Blog contents [a life in books](https://alifeinbooks.co.uk/)
+
+4) Inspire by elerel for the blog app [elerel](https://github.com/elerel/ms4-siopa-fia)
+
+5) Amazon.co.uk [Amazon.co.uk](https://www.amazon.co.uk/s/ref=nb_sb_noss?url=search-alias%3Dstripbooks&field-keywords=&ref=nb_sb_noss&crid=1T8BB5M2AUKBK&sprefix=%2Cstripbooks%2C67) 
 
     Book(Fictions) 
     1) [harry potter and the sorcerers stone](https://www.amazon.co.uk/Harry-Potter-Philosophers-Stone-Book/dp/B017V51FEG/ref=sr_1_1?crid=23YH2Q9HVQAWJ&keywords=harry+potter+and+the+sorcerers+stone&qid=1640606743&s=books&sprefix=harry+potter+and+the+sorcerers+stone%2Cstripbooks%2C77&sr=1-1) 
@@ -815,8 +835,11 @@ IAM(Identify and access management) -> user to access
     8) [The little prince](  https://pixabay.com/photos/door-little-prince-saint-exupery-2082742/ )
     9) [steve jobs](https://pixabay.com/photos/steve-jobs-apple-iphone-ios-ajfoun-1049872/)
     10) [American gods]( https://pixabay.com/photos/sea-clouds-heaven-mood-eve-shine-783049/ )
-
-   
+  
+  Blog image
+    
+    1) [Open Water](https://pixabay.com/photos/model-african-girl-lady-woman-5587623/)
+    2) [Five Tuesdays in winter](https://pixabay.com/photoshills-winter-sunset-snow-trees-5942468)
 
   
 
