@@ -17,15 +17,11 @@
     <div class="overlay"></div>
     <div class="container">
     <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
-            <div class="image-container my-5">
-            </div>
-        </div>
         <!--Blog post title/author-->
         <div class="container-blog">
             <div class="row bag-header">
                 <div class="col-10 offset-1 text-center">
-                    <h1 class="logo-font mb-4 ">{{ blog.title }}</h1>
+                    <h1 class="logo-font m-4 ">{{ blog.title }}</h1>
                     <p class="text-center mb-0">
                         {% if blog.author %}
                         <em>by: {{ blog.author }}</em>
@@ -36,7 +32,7 @@
 
             <!--Blog post if image uploaded-->
             <div class="d-flex justify-content-center">
-                <div class="mt-4">
+                <div class="mt-4 p-3">
                     <div class="h-50">
                         {% if blog.image %}
                         <img class="img-fluid" src="{{ blog.image.url }}" alt="{{ blog.title }}">
@@ -46,7 +42,7 @@
             </div>
 
             <!--Blog Text Section/for superuser to edit/delete-->
-            <div class="row mt-3">
+            <div class="row mt-3 p-3">
                 <div class="container">
                     <p>{{ blog.body }}</p>
                     {% if request.user.is_superuser %}
