@@ -81,7 +81,7 @@
    <!--Add A Blog if SuperUser-->
    {% if request.user.is_superuser %}
    <div class="col text-center mt-5 mb-5">
-      <a class="btn btn-black" href="{% url 'add_blog' %}">Add Post</a>
+      <a class="btn btn-black" href="{% url 'add_blog' %}">Add Blog</a>
    </div>
 </div>
 {% endif %}
