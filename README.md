@@ -419,9 +419,9 @@ easily navigate the each pages.
 
  - Forms testing
 
-   ### There are five test users registered in this site. 
+   ### There are three test users registered in this site. 
     
-    - bookseller (Primary admin user) -> password : admintest
+    - bookseller (Primary admin user) -> password provided in submition form
     - volec -> password : test2022
     - test2022 -> password : usertest
     
